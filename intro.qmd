@@ -14,4 +14,4 @@ Further information on the project and project team which created the MAPS tool 
 
 ## Section 1
 
-New text
+New text for the manual
