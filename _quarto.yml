@@ -5,14 +5,14 @@ book:
   title: "MAPS tool user guide"
   subtitle: "The Micronutrient Action Policy Support (MAPS) tool"
   author: "MAPS team"
-  date-format: "dd/MM/YYYY"
+  #date-format: "dd/MM/YYYY"
   #date-format: "long"
   date: "07/03/2024"
-  original-date: "07/03/2024"
-  site-url: https://help.micronutrient.support/
-  status: "under construction"
+  #original-date: "07/03/2024"
+  #site-url: https://help.micronutrient.support/
+  #status: "under construction"
   version: "MAPS tool: 1.17.0"
-  original-date: "original guide release 3rd July 2024"
+  #original-date: "original guide release 3rd July 2024"
   
 
   chapters:
