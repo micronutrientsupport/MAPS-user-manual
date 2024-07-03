@@ -11,7 +11,10 @@
     "href": "summary.html",
     "title": "3  Overview of the MAPS tool features",
     "section": "",
-    "text": "The MAPS project (Nov 2019 – present) has co-created a web-hosted tool to estimate micronutrient inadequacies and explore pathways to improve nutrition. This was in response to an unmet need articulated by stakeholders at the project design phase. The premise is to unlock, and make available, sub-national insights of relevance to nutritional assessments both currently, and under future scenarios. MAPS’ geographic scope is for nations in sub–Saharan Africa. Feature release has been iterative through the development of the tool. The simplified user journey is summarised in Figure 1.\n{to be inserted}\nFigure 1: Simplified user journey through the MAPS tool features.\n{to be inserted}\nUser entry points are provided at https://maps.micronutrient.support/maps-tool (Figure 2) which are QuickMAPS and cost-effectiveness modelling.\nFigure 2: The options to enter via QuickMAPS (lower left of screenshot) or Cost & Effectiveness (lower right of screenshot) available on navigating to the tool.\nQuickMAPS removes the need for complex data modelling skills that would be otherwise required to interact with national, or subnational, views of data which provide information on nutrient availability in nations. QuickMAPS also enables viualisation of information on the projections of nutrient availability at the national scale to the year 2050.\nCost & effectiveness features provide modelling frameworks, visualisations and download for large-scale food fortification (LSFF), and for agricultural biofortification using either crop varieties or fertilisers . Users can create multiple models, and compare outputs. Cost and effectiveness modelling can also be called from within QuickMAPS.\nFurther information on each of these key features is provided in the sections below.\nOur co-design summary explains selection of our modelling, features and design priorities [ ]. This also documents of the features that could not be developed under the current iteration of MAPS, but which have been requested during user testing. This report provides a link for users to submit any additional feature requests, although the project does not currently (2024) have the funding to pursue these."
+    "text": "The MAPS project (Nov 2019 – present) has co-created a web-hosted tool to estimate micronutrient inadequacies and explore pathways to improve nutrition. This was in response to an unmet need articulated by stakeholders at the project design phase. The premise is to unlock, and make available, sub-national insights of relevance to nutritional assessments both currently, and under future scenarios. MAPS’ geographic scope is for nations in sub–Saharan Africa. Feature release has been iterative through the development of the tool. The simplified user journey is summarised in Figure 1.\n{to be inserted}\nFigure 1: Simplified user journey through the MAPS tool features.\n{to be inserted}\nUser entry points are provided at https://maps.micronutrient.support/maps-tool (Figure 2) which are QuickMAPS and cost-effectiveness modelling.\nFigure 2: The options to enter via QuickMAPS (lower left of screenshot) or Cost & Effectiveness (lower right of screenshot) available on navigating to the tool.\nQuickMAPS removes the need for complex data modelling skills that would be otherwise required to interact with national, or subnational, views of data which provide information on nutrient availability in nations. QuickMAPS also enables viualisation of information on the projections of nutrient availability at the national scale to the year 2050.\nCost & effectiveness features provide modelling frameworks, visualisations and download for large-scale food fortification (LSFF), and for agricultural biofortification using either crop varieties or fertilisers . Users can create multiple models, and compare outputs. Cost and effectiveness modelling can also be called from within QuickMAPS.\nFurther information on each of these key features is provided in the sections below.\nOur co-design summary explains selection of our modelling, features and design priorities [ ]. This also documents of the features that could not be developed under the current iteration of MAPS, but which have been requested during user testing. This report provides a link for users to submit any additional feature requests, although the project does not currently (2024) have the funding to pursue these.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Overview of the MAPS tool features</span>"
+    ]
   },
   {
     "objectID": "references.html",
@@ -25,7 +28,10 @@
     "href": "index.html",
     "title": "MAPS tool user guide",
     "section": "",
-    "text": "1 About this guide\nThis guide is intended to provide additional information on the data and visualisations in the Micronutrient Action Policy Support (MAPS) tool. This guide can be read in sequence, or users can use the navigation panels to directly select the section and functionality they are interested in.\nThis guide release precedes the completion of tool functionality, as part of our iterative release practice, and is being updated as features are released. Where text is yet to be released, or sections relate to features still under development, this is indicated by the following symbol: .\nComplementary guides are provided for educational users  and web developers .\nFurther information on the project and project team which created the MAPS tool can be found at the project website https://micronutrient.support/. A summary of our co-design process, implemented to design and test the MAPS tool, can be found at []."
+    "text": "1 About this guide\nThis guide is intended to provide additional information on the data and visualisations in the Micronutrient Action Policy Support (MAPS) tool. This guide can be read in sequence, or users can use the navigation panels to directly select the section and functionality they are interested in.\nThis guide release precedes the completion of tool functionality, as part of our iterative release practice, and is being updated as features are released. Where text is yet to be released, or sections relate to features still under development, this is indicated by the following symbol: .\nComplementary guides are provided for educational users  and web developers .\nFurther information on the project and project team which created the MAPS tool can be found at the project website https://micronutrient.support/. A summary of our co-design process, implemented to design and test the MAPS tool, can be found at [].",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About this guide</span>"
+    ]
   },
   {
     "objectID": "intro.html#section-1",
@@ -46,21 +52,30 @@
     "href": "intro.html",
     "title": "2  Accessing, and returning to, the MAPS tool",
     "section": "",
-    "text": "The MAPS tool can be accessed directly from https://maps.micronutrient.support/ or https://maps.micronutrient.support/maps-tool, and via our shortcut https://www.maps.africa/. All three links lead to exactly the same version of the tool.\nThe MAPS tool has been optimised for screen sizes typically found with desktop and laptop devices, rather than smaller mobile devices. Using smaller devices is possible, but will not provide the intended appearance of the interfaces. The tool will work in widely used commercial operating systems and web browsers (as at 2024).\nAccess is free of charge and does not require users to log-in. Users of the full scope of functionality, i.e. the cost & effectiveness modelling, and/or bring-your-own data [], may prefer to create a user account in order to save for a later date their own input data and models."
+    "text": "The MAPS tool can be accessed directly from https://maps.micronutrient.support/ or https://maps.micronutrient.support/maps-tool, and via our shortcut https://www.maps.africa/. All three links lead to exactly the same version of the tool.\nThe MAPS tool has been optimised for screen sizes typically found with desktop and laptop devices, rather than smaller mobile devices. Using smaller devices is possible, but will not provide the intended appearance of the interfaces. The tool will work in widely used commercial operating systems and web browsers (as at 2024).\nAccess is free of charge and does not require users to log-in. Users of the full scope of functionality, i.e. the cost & effectiveness modelling, and/or bring-your-own data [], may prefer to create a user account in order to save for a later date their own input data and models.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Accessing, and returning to, the MAPS tool</span>"
+    ]
   },
   {
     "objectID": "glossary.html",
     "href": "glossary.html",
-    "title": "4  Glossary for this guide",
+    "title": "5  Glossary for this guide",
     "section": "",
-    "text": "A MAPS tool feature, or linked guide/documentation, which is not yet available. This symbol will be removed and text/links inserted as features and resources become available.\nMAPS Micronutrient Action Policy Support\nLSFF Large-scale food fortification"
+    "text": "A MAPS tool feature, or linked guide/documentation, which is not yet available. This symbol will be removed and text/links inserted as features and resources become available.\nMAPS Micronutrient Action Policy Support\nLSFF Large-scale food fortification",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Glossary for this guide</span>"
+    ]
   },
   {
     "objectID": "QuickMAPS.html",
     "href": "QuickMAPS.html",
     "title": "4  Using QuickMAPS",
     "section": "",
-    "text": "Instructions go here….."
+    "text": "4.1 Accessing QuickMAPS\nQuickMAPS can be accessed directly through https://maps.micronutrient.support/maps-tool or the alias https://www.maps.africa/. No log in is required.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Using QuickMAPS</span>"
+    ]
   },
   {
     "objectID": "QuickMAPS.html#accessing-quickmaps",
@@ -81,27 +96,39 @@
     "href": "QuickMAPS.html#initial-selection-menu",
     "title": "4  Using QuickMAPS",
     "section": "4.2 Initial selection menu",
-    "text": "4.2 Initial selection menu\nThe following screen will appear on entering QuickMAPS. The ‘Welcome to Quick MAPS’ pop up window provides more information and a tour feature. Once completed or dismissed this can be restored at any time by using the icon  on the lower right side of the screen.\n\n\n\nQuickMAPS welcome and tour initial window\n\n\nThe screen will then show the following view - which provides the user with the choice of country, micronutrient and, where applicable, food system or biomarker data.\n\n\n\nQuickMAPS country and micronutrient selection pane"
+    "text": "4.2 Initial selection menu\nThe following screen will appear on entering QuickMAPS. The ‘Welcome to Quick MAPS’ pop up window provides more information and a tour feature. Once completed or dismissed this can be restored at any time by using the icon  on the lower right side of the screen.\n\n\n\nQuickMAPS welcome and tour initial window\n\n\nThe screen will then show the following view - which provides the user with the choice of country, micronutrient and, where applicable, food system or biomarker data.\n\n\n\nQuickMAPS country and micronutrient selection pane",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Using QuickMAPS</span>"
+    ]
   },
   {
     "objectID": "QuickMAPS.html#country-and-micronutrient-selection",
     "href": "QuickMAPS.html#country-and-micronutrient-selection",
     "title": "4  Using QuickMAPS",
     "section": "4.3 Country and micronutrient selection",
-    "text": "4.3 Country and micronutrient selection\nThe country of interest can be selected from the drop-down menu, or the interactive map (areas A and B on the index map below).\nThe micronutrient of interest can be selected from the drop-down menu (area C on the index map below).\n{insert index image}\nOnce the country and micronutrient are selected, the MAPS tool will automatically select the most spatially disaggregated data available and most recent data available (area C on the index map above). Thus, if subnational data are available, via a household consumption and expenditure survey, the tool will default to displaying these data. If this is not available, the most recent food balance sheet data will be selected, and provide a national overview.\nWhere biomarkers are available, this option will be enabled and can be chosen by the user. This functionality will only be ‘live’ where the biomarker data is loaded for the combination of the country and the micronutrient. See the biomarker section  for more information.\nOn selection of the data the user wishes to view, the system will then model the data and present these in a dashboard view as described below.\nThe selection side bar will automatically close to the left of the screen to maximise the screen area for viewing the results. The selection side bar can be restored at any time by clicking on this icon , found on the top left of the screen area."
+    "text": "4.3 Country and micronutrient selection\nThe country of interest can be selected from the drop-down menu, or the interactive map (areas A and B on the index map below).\nThe micronutrient of interest can be selected from the drop-down menu (area C on the index map below).\n{insert index image}\nOnce the country and micronutrient are selected, the MAPS tool will automatically select the most spatially disaggregated data available and most recent data available (area C on the index map above). Thus, if subnational data are available, via a household consumption and expenditure survey, the tool will default to displaying these data. If this is not available, the most recent food balance sheet data will be selected, and provide a national overview.\nWhere biomarkers are available, this option will be enabled and can be chosen by the user. This functionality will only be ‘live’ where the biomarker data is loaded for the combination of the country and the micronutrient. See the biomarker section  for more information.\nOn selection of the data the user wishes to view, the system will then model the data and present these in a dashboard view as described below.\nThe selection side bar will automatically close to the left of the screen to maximise the screen area for viewing the results. The selection side bar can be restored at any time by clicking on this icon , found on the top left of the screen area.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Using QuickMAPS</span>"
+    ]
   },
   {
     "objectID": "QuickMAPS.html#changing-the-initial-selection-of-country-and-or-micronutrient",
     "href": "QuickMAPS.html#changing-the-initial-selection-of-country-and-or-micronutrient",
     "title": "4  Using QuickMAPS",
     "section": "4.4 Changing the initial selection of country and / or micronutrient",
-    "text": "4.4 Changing the initial selection of country and / or micronutrient\nThe side bar can be re–opened using the icon  and the steps shown above used to view any different permutation of the countries and nutrients for which data is loaded."
+    "text": "4.4 Changing the initial selection of country and / or micronutrient\nThe side bar can be re–opened using the icon  and the steps shown above used to view any different permutation of the countries and nutrients for which data is loaded.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Using QuickMAPS</span>"
+    ]
   },
   {
     "objectID": "QuickMAPS.html#baseline-contextual-information-shown-on-all-data-views-for-food-systems-data-modelling",
     "href": "QuickMAPS.html#baseline-contextual-information-shown-on-all-data-views-for-food-systems-data-modelling",
     "title": "4  Using QuickMAPS",
     "section": "4.5 Baseline – contextual information shown on all data views for food systems data modelling",
-    "text": "4.5 Baseline – contextual information shown on all data views for food systems data modelling\nThe view which next appears has default components which appear on all pages, irrespective of whether sub-national, or national, data have been retrieved. These are shown in the index image below.\n{insert index image for food sys data visualisations}\nThe title banner (area A on the index image) provides information on the country, micronutrient, and confirmation that food systems data is being used.\nThe lower part of the title banner provides a summary of the food composition data which has been matched to the food systems data (area B on the index image). This can be further revealed using the down arrow to provide details of the food composition tables which have been used."
+    "text": "4.5 Baseline – contextual information shown on all data views for food systems data modelling\nThe view which next appears has default components which appear on all pages, irrespective of whether sub-national, or national, data have been retrieved. These are shown in the index image below.\n{insert index image for food sys data visualisations}\nThe title banner (area A on the index image) provides information on the country, micronutrient, and confirmation that food systems data is being used.\nThe lower part of the title banner provides a summary of the food composition data which has been matched to the food systems data (area B on the index image). This can be further revealed using the down arrow to provide details of the food composition tables which have been used.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Using QuickMAPS</span>"
+    ]
   }
 ]
