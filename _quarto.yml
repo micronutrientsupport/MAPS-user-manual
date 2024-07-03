@@ -10,6 +10,7 @@ book:
     - index.qmd
     - intro.qmd
     - summary.qmd
+    - QuickMAPS.qmd
     - glossary.qmd
 #    - references.qmd
 
