@@ -4,13 +4,14 @@ project:
 
 book:
   title: "MAPS user manual"
-  author: "Jane Doe"
+  author: "MAPS team"
   date: "03/07/2024"
   chapters:
     - index.qmd
     - intro.qmd
     - summary.qmd
-    - references.qmd
+    - glossary.qmd
+#    - references.qmd
 
 bibliography: references.bib
 
