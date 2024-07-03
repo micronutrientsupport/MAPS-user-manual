@@ -9,9 +9,9 @@
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "MAPS tool user guide",
+    "title": "3  Overview of the MAPS tool features",
     "section": "",
-    "text": "Overview of the MAPS tool features\nThe MAPS project (Nov 2019 – present) has co-created a web-hosted tool to estimate micronutrient inadequacies and explore pathways to improve nutrition. This was in response to an unmet need articulated by stakeholders at the project design phase. The premise is to unlock, and make available, sub-national insights of relevance to nutritional assessments both currently, and under future scenarios. MAPS’ geographic scope is for nations in sub–Saharan Africa. Feature release has been iterative through the development of the tool. The simplified user journey is summarised in Figure 1.\n{to be inserted}\nFigure 1: Simplified user journey through the MAPS tool features.\nUser entry points are provided at https://maps.micronutrient.support/maps-tool (Figure 2) which are QuickMAPS and cost-effectiveness modelling.\nFigure 2: The options to enter via QuickMAPS (lower left of screenshot) or Cost & Effectiveness (lower right of screenshot) available on navigating to the tool.\nQuickMAPS removes the need for complex data modelling skills that would be otherwise required to interact with national, or subnational, views of data which provide information on nutrient availability in nations.\nCost & effectiveness features provide modelling frameworks, visualisations and download for large-scale food fortification (LSFF), and for agricultural biofortification using either crop varieties or fertilisers . Users can create multiple models, and compare outputs.\nCost and effectiveness modelling can also be called from within QuickMAPS.\nFurther information on each of these key features is provided below.\nOur co-design summary explains selection of our modelling, features and design priorities [ ]. This also documents of the features that could not be developed under the current iteration of MAPS, but which have been requested during user testing. This report provides a link for users to submit any additional feature requests, although the project does not currently (2024) have the funding to pursue these."
+    "text": "The MAPS project (Nov 2019 – present) has co-created a web-hosted tool to estimate micronutrient inadequacies and explore pathways to improve nutrition. This was in response to an unmet need articulated by stakeholders at the project design phase. The premise is to unlock, and make available, sub-national insights of relevance to nutritional assessments both currently, and under future scenarios. MAPS’ geographic scope is for nations in sub–Saharan Africa. Feature release has been iterative through the development of the tool. The simplified user journey is summarised in Figure 1.\n{to be inserted}\nFigure 1: Simplified user journey through the MAPS tool features.\n{to be inserted}\nUser entry points are provided at https://maps.micronutrient.support/maps-tool (Figure 2) which are QuickMAPS and cost-effectiveness modelling.\nFigure 2: The options to enter via QuickMAPS (lower left of screenshot) or Cost & Effectiveness (lower right of screenshot) available on navigating to the tool.\nQuickMAPS removes the need for complex data modelling skills that would be otherwise required to interact with national, or subnational, views of data which provide information on nutrient availability in nations.\nCost & effectiveness features provide modelling frameworks, visualisations and download for large-scale food fortification (LSFF), and for agricultural biofortification using either crop varieties or fertilisers . Users can create multiple models, and compare outputs.\nCost and effectiveness modelling can also be called from within QuickMAPS.\nFurther information on each of these key features is provided below.\nOur co-design summary explains selection of our modelling, features and design priorities [ ]. This also documents of the features that could not be developed under the current iteration of MAPS, but which have been requested during user testing. This report provides a link for users to submit any additional feature requests, although the project does not currently (2024) have the funding to pursue these."
   },
   {
     "objectID": "references.html",
@@ -54,5 +54,12 @@
     "title": "4  Glossary for this guide",
     "section": "",
     "text": "A MAPS tool feature, or linked guide/documentation, which is not yet available. This symbol will be removed and text/links inserted as features and resources become available.\nMAPS Micronutrient Action Policy Support\nLSFF Large-scale food fortification"
+  },
+  {
+    "objectID": "QuickMAPS.html",
+    "href": "QuickMAPS.html",
+    "title": "4  Using QuickMAPS",
+    "section": "",
+    "text": "Instructions go here….."
   }
 ]
