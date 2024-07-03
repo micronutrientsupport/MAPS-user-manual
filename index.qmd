@@ -1,6 +1,6 @@
 # About this guide
 
-This guide is intended to provide additional information on the data and visualisations in the Micronutrient Action Policy Support (MAPS) tool. It can be read in sequence, or users can use the navigation panels to directly select the section and functionality they are interested in.
+This guide is intended to provide additional information on the data and visualisations in the ***Micronutrient Action Policy Support (MAPS)*** tool. It can be read in sequence, or users can use the navigation panels to directly select the section and functionality they are interested in.
 
 This guide precedes the completion of tool functionality, as part of our iterative release practice, and is being updated as features are released. Where text is yet to be released, or sections relate to features still under development, this is indicated by the following symbol: ![work-in-progress](images/WiP_purplespanner.svg).
 
