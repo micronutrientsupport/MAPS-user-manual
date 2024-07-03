@@ -5,7 +5,7 @@ project:
 book:
   title: "MAPS tool user guide"
   author: "MAPS team"
-  date-format: "DD MMMM YYYY"
+  date-format: "dd MM YYYY"
   date: "03/07/2024"
 
   chapters:
