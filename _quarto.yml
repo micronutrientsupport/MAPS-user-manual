@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "MAPS user manual"
+  title: "MAPS tool user guide"
   author: "MAPS team"
   date: "03/07/2024"
   chapters:

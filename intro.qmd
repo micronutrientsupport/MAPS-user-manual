@@ -1,17 +1,7 @@
-# MAPS tool user guide
+# Accessing, and returning to, the MAPS tool
 
-## About this guide
+The MAPS tool can be accessed directly from <https://maps.micronutrient.support/> or <https://maps.micronutrient.support/maps-tool>, and via our shortcut <https://www.maps.africa/>. All three links lead to exactly the same version of the tool.
 
-This guide is intended to provide additional information on the data and visualisations in the MAPS tool. It can be read in sequence, or users can use the navigation panel on the LEFT to select the section and functionality they are interested in.
+The MAPS tool has been optimised for screen sizes typically found with desktop and laptop devices, rather than smaller mobile devices. Using smaller devices is possible, but will not provide the intended appearance of the interfaces. The tool will work in widely used commercial operating systems and web browsers (as at 2024).
 
-This guide precedes the completion of tool functionality, as part of our iterative release practice, and is being updated as features are released. Where text is yet to be released, or sections relate to features still under development, this is indicated by the following symbol:
-
-![Wrench with solid fill](file:///C:/Users/sbala2/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png){alt="Wrench with solid fill"}.
-
-Complementary guides are provided for educational users \[![Wrench with solid fill](file:///C:/Users/sbala2/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png){alt="Wrench with solid fill"}\] and web developers \[![Wrench with solid fill](file:///C:/Users/sbala2/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png){alt="Wrench with solid fill"}\].
-
-Further information on the project and project team which created the MAPS tool can be found at the project website <https://micronutrient.support/>. A summary of our co-design process, implemented to design and test the MAPS tool, can be found at
-
-## Section 1
-
-New text for the manual
+Access is free of charge and does not require users to log-in. Users of the full scope of functionality, i.e. the cost & effectiveness modelling, and/or bring-your-own data \[![work-in-progress](images/WiP_purplespanner.svg)\], may prefer to create a user account in order to save for a later date their own input data and models.
