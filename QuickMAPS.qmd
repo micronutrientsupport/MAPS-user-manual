@@ -1,3 +1,25 @@
 # Using QuickMAPS
 
-Instructions go here.....
+## Accessing QuickMAPS
+
+QuickMAPS can be accessed directly through <https://maps.micronutrient.support/maps-tool> or the alias <https://www.maps.africa/>. No log in is required.
+
+## Initial selection menu
+
+The following screen will appear on entering QuickMAPS. The \'Welcome to Quick MAPS\' pop up window provides more information and a tour feature. Once completed or dismissed this can be restored using the icon ![Pop up MAPS welcome and tour](images/MAPS_icons1.png){width="23" height="21"} on the lower right side of the screen.
+
+![QuickMAPS welcome and tour initial window](images/QuickMAPS_popup1.png)
+
+The screen will then show the following view - which provides the user with the choice of country, micronutrient and, where applicable, food system or biomarker data.
+
+## Country and micronutrient selection
+
+The first step for a user is to select a country using our drop-down menu (, or our selectable map.
+
+![QuickMAPS country and micronutrient selection pane](images/QuickMAPS_popup2.png){fig-alt="QuickMAPS country and micronutrient selection pane" fig-align="center"}
+
+The **country** of interest can be selected from the drop-down menu, or the interactive map (areas A and B on the index map below).
+
+The **micronutrient** of interest can be selected from the drop-down menu (area C on the index map below).
+
+{insert index image}
