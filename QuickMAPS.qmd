@@ -22,9 +22,9 @@ The **micronutrient** of interest can be selected from the drop-down menu (area 
 
 {insert index image}
 
-Once the country and micronutrient are selected, the MAPS tool will automatically select the most spatially disaggregated data available and most recent data available. Thus, if subnational data are available, via a household consumption and expenditure survey, the tool will default to displaying these data. If this is not available, the most recent food balance sheet data will be selected, and provide a national overview.
+Once the country and micronutrient are selected, the MAPS tool will automatically select the most spatially disaggregated data available and most recent data available (area C on the index map above). Thus, if subnational data are available, via a household consumption and expenditure survey, the tool will default to displaying these data. If this is not available, the most recent food balance sheet data will be selected, and provide a national overview.
 
-Where biomarkers are available, this option will be enabled and can be chosen by the user. This functionality will only be 'live' where the biomarker data is loaded for the combination of the country and the micronutrient.
+Where biomarkers are available, this option will be enabled and can be chosen by the user. This functionality will only be 'live' where the biomarker data is loaded for the combination of the country and the micronutrient. See the biomarker section ![work-in-progress](images/WiP_purplespanner.svg) for more information.
 
 On selection of the data the user wishes to view, the system will then model the data and present these in a dashboard view as described below.
 
@@ -33,3 +33,13 @@ The selection side bar will automatically close to the left of the screen to max
 ## Changing the initial selection of country and / or micronutrient
 
 The side bar can be re--opened using the icon ![](images/SideBar_closedviewicon.png){width="14"} and the steps shown [above](https://help.micronutrient.support/QuickMAPS.html#country-and-micronutrient-selection) used to view any different permutation of the countries and nutrients for which data is loaded.
+
+## Baseline -- contextual information shown on all data views for food systems data modelling
+
+The view which next appears has default components which appear on all pages, irrespective of whether sub-national, or national, data have been retrieved. These are shown in the index image below.
+
+{insert index image for food sys data visualisations}
+
+The title banner (area A on the index image) provides information on the country, micronutrient, and confirmation that food systems data is being used.
+
+The lower part of the title banner provides a summary of the food composition data which has been matched to the food systems data (area B on the index image). This can be further revealed using the down arrow to provide details of the food composition tables which have been used.
