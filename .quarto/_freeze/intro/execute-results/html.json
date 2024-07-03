@@ -1,0 +1,14 @@
+{
+  "hash": "955796c8a72292ee23af210ab2fddf1c",
+  "result": {
+    "markdown": "# MAPS tool user guide\n\n## About this guide\n\nThis guide is intended to provide additional information on the data and visualisations in the MAPS tool. It can be read in sequence, or users can use the navigation panel on the LEFT to select the section and functionality they are interested in.\n\nThis guide precedes the completion of tool functionality, as part of our iterative release practice, and is being updated as features are released. Where text is yet to be released, or sections relate to features still under development, this is indicated by the following symbol: ![Wrench with solid fill](file:///C:/Users/sbala2/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png){alt=\"Wrench with solid fill\"}.\n\nComplementary guides are provided for educational users \\[![Wrench with solid fill](file:///C:/Users/sbala2/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png){alt=\"Wrench with solid fill\"}\\] and web developers \\[![Wrench with solid fill](file:///C:/Users/sbala2/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png){alt=\"Wrench with solid fill\"}\\].\n\nFurther information on the project and project team which created the MAPS tool can be found at the project website <https://micronutrient.support/>. A summary of our co-design process, implemented to design and test the MAPS tool, can be found at \\[![Wrench with solid fill](file:///C:/Users/sbala2/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png){alt=\"Wrench with solid fill\"}\\].\n\nSee @knuth84 for additional discussion of literate programming.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
