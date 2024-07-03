@@ -5,8 +5,9 @@ project:
 book:
   title: "MAPS tool user guide"
   author: "MAPS team"
-  date: "03/07/2024"
   date-format: "DD MMMM YYYY"
+  date: "03/07/2024"
+
   chapters:
     - index.qmd
     - intro.qmd
