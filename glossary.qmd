@@ -1,0 +1,7 @@
+# Glossary for this guide
+
+![work-in-progress](images/WiP_purplespanner.svg) A MAPS tool feature, or linked guide/documentation, which is not yet available. This symbol will be removed and text/links inserted as features and resources become available.
+
+**MAPS** Micronutrient Action Policy Support
+
+**LSFF** Large-scale food fortification
