@@ -1,16 +1,12 @@
-# Overview of the MAPS tool features 
+# Overview of the MAPS tool features
 
-The MAPS project (Nov 2019 -- present) has co-created a web-hosted tool to estimate micronutrient inadequacies and explore pathways to improve nutrition. This was in response to an unmet need articulated by stakeholders at the project design phase. The premise is to unlock, and make available, sub-national insights of relevance to nutritional assessments both currently, and under future scenarios. MAPS' geographic scope is for nations in sub--Saharan Africa. Feature release has been iterative through the development of the tool. The simplified user journey is summarised in Figure 1.
+The MAPS project (Nov 2019 -- present) has co-created a web-hosted tool to estimate micronutrient inadequacies and explore pathways to improve nutrition. This was in response to an unmet need articulated by stakeholders at the project design phase. The premise is to unlock, and make available, sub-national insights of relevance to nutritional assessments both currently, and under future scenarios. MAPS' geographic scope is for nations in sub--Saharan Africa. Feature release has been iterative through the development of the tool. The simplified user journey is summarised below.
 
-{to be inserted}
+![Simplified user journey through the MAPS tool features](images/MAPS user journey.png){fig-alt="Simplified user journey through the MAPS tool features"}
 
-Figure 1: Simplified user journey through the MAPS tool features.
+User entry points are provided at https://maps.micronutrient.support/maps-tool (and as shown below) which are **QuickMAPS** and **cost and effectiveness** modelling.
 
-{to be inserted}
-
-User entry points are provided at https://maps.micronutrient.support/maps-tool (Figure 2) which are QuickMAPS and cost-effectiveness modelling.
-
-Figure 2: The options to enter via QuickMAPS (lower left of screenshot) or Cost & Effectiveness (lower right of screenshot) available on navigating to the tool.
+![The options to enter via QuickMAPS (lower left of screenshot) or Cost & Effectiveness (lower right of screenshot) available on navigating to the tool.](images/Landing_QuickMAPS_C&E.png){width="800"}
 
 **QuickMAPS** removes the need for complex data modelling skills that would be otherwise required to interact with national, or subnational, views of data which provide information on nutrient availability in nations. QuickMAPS also enables viualisation of information on the projections of nutrient availability at the national scale to the year 2050.
 

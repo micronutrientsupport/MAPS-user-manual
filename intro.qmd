@@ -6,4 +6,4 @@ The MAPS tool has been optimised for screen sizes typically found with desktop a
 
 Access is free of charge and does not require users to log-in. Users of the full scope of functionality, i.e. the cost & effectiveness modelling, and/or bring-your-own data \[![work-in-progress](images/WiP_purplespanner.svg)\], may prefer to create a user account in order to save for a later date their own input data and models.
 
-The current version of the tool is \<*insert link*\>, and **returning users** may need to check a locally cached earlier version is not being used. If this is the case, follow your browser instructions to clear the cache and refresh your version of the MAPS tool.
+The current version of the tool is \<![](images/WiP_purplespanner.svg)\>, and **returning users** may need to check a locally cached earlier version is not being used. If this is the case, follow your browser instructions to clear the cache and refresh your version of the MAPS tool.
