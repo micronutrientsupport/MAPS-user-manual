@@ -52,7 +52,7 @@
     "href": "intro.html",
     "title": "2  Accessing, and returning to, the MAPS tool",
     "section": "",
-    "text": "The MAPS tool can be accessed directly from https://maps.micronutrient.support/ or https://maps.micronutrient.support/maps-tool, and via our shortcut https://www.maps.africa/. All three links lead to exactly the same version of the tool.\nThe MAPS tool has been optimised for screen sizes typically found with desktop and laptop devices, rather than smaller mobile devices. Using smaller devices is possible, but will not provide the intended appearance of the interfaces. The tool will work in widely used commercial operating systems and web browsers (as at 2024).\nAccess is free of charge and does not require users to log-in. Users of the full scope of functionality, i.e. the cost & effectiveness modelling, and/or bring-your-own data [], may prefer to create a user account in order to save for a later date their own input data and models.",
+    "text": "The MAPS tool can be accessed directly from https://maps.micronutrient.support/ or https://maps.micronutrient.support/maps-tool, and via our shortcut https://www.maps.africa/. All three links lead to exactly the same version of the tool.\nThe MAPS tool has been optimised for screen sizes typically found with desktop and laptop devices, rather than smaller mobile devices. Using smaller devices is possible, but will not provide the intended user experience of the interfaces. The tool will work in widely used commercial operating systems and web browsers (as at 2024).\nAccess is free of charge and does not require users to log-in. Users of the full scope of functionality, i.e. the cost & effectiveness modelling, and/or bring-your-own data [], may prefer to create a user account in order to save for a later date their own input data and models.\nThe current version of the tool is &lt;insert link&gt;, and returning users may need to check a locally cached earlier version is not being used. If this is the case, follow your browser instructions to clear the cache and refresh your version of the MAPS tool.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Accessing, and returning to, the MAPS tool</span>"
     ]
@@ -106,7 +106,7 @@
     "href": "QuickMAPS.html#country-and-micronutrient-selection",
     "title": "4  Using QuickMAPS",
     "section": "4.3 Country and micronutrient selection",
-    "text": "4.3 Country and micronutrient selection\nThe country of interest can be selected from the drop-down menu, or the interactive map (areas A and B on the index map below).\nThe micronutrient of interest can be selected from the drop-down menu (area C on the index map below).\n{insert index image}\nOnce the country and micronutrient are selected, the MAPS tool will automatically select the most spatially disaggregated data available and most recent data available (area C on the index map above). Thus, if subnational data are available, via a household consumption and expenditure survey, the tool will default to displaying these data. If this is not available, the most recent food balance sheet data will be selected, and provide a national overview.\nWhere biomarkers are available, this option will be enabled and can be chosen by the user. This functionality will only be ‘live’ where the biomarker data is loaded for the combination of the country and the micronutrient. See the biomarker section  for more information.\nOn selection of the data the user wishes to view, the system will then model the data and present these in a dashboard view as described below.\nThe selection side bar will automatically close to the left of the screen to maximise the screen area for viewing the results. The selection side bar can be restored at any time by clicking on this icon , found on the top left of the screen area.",
+    "text": "4.3 Country and micronutrient selection\nThe country of interest can be selected from the drop-down menu, or the interactive map (areas A on the index map below).\nThe micronutrient of interest can be selected from the drop-down menu (area B on the index map below).\n\n\n\nQuickMAPS country and micronutrient selection options\n\n\nOnce the country and micronutrient are selected, the user can choose to select food system or biomarker data (Area C on the index map). These options are only available where data is loaded for the selected country and micronutrient combination.\nThe MAPS tool will then automatically select the most spatially disaggregated data available and most recent data available (area D on the index map above). Thus, if subnational data are available, via a household consumption and expenditure survey, the tool will default to displaying these data. If this is not available, the most recent food balance sheet data will be selected, and provide a national overview.\nWhere biomarkers are available, this option will be enabled and can be chosen by the user. This functionality will only be ‘live’ where the biomarker data is loaded for the combination of the country and the micronutrient. See the biomarker section  for more information.\nOn selection of the data the user wishes to view, the system will then model the data and present these in a dashboard view as described below.\nThe selection side bar will automatically close to the left of the screen to maximise the screen area for viewing the results. The selection side bar can be restored at any time by clicking on this icon , found on the top left of the screen area.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Using QuickMAPS</span>"
     ]
@@ -126,7 +126,47 @@
     "href": "QuickMAPS.html#baseline-contextual-information-shown-on-all-data-views-for-food-systems-data-modelling",
     "title": "4  Using QuickMAPS",
     "section": "4.5 Baseline – contextual information shown on all data views for food systems data modelling",
-    "text": "4.5 Baseline – contextual information shown on all data views for food systems data modelling\nThe view which next appears has default components which appear on all pages, irrespective of whether sub-national, or national, data have been retrieved. These are shown in the index image below.\n{insert index image for food sys data visualisations}\nThe title banner (area A on the index image) provides information on the country, micronutrient, and confirmation that food systems data is being used.\nThe lower part of the title banner provides a summary of the food composition data which has been matched to the food systems data (area B on the index image). This can be further revealed using the down arrow to provide details of the food composition tables which have been used.",
+    "text": "4.5 Baseline – contextual information shown on all data views for food systems data modelling\nThe view which next appears has default components which appear on all pages, irrespective of whether sub-national, or national, data have been retrieved.\n\n\n\nQuickMAPS baseline page - information banner (South Africa & calcium example shown)\n\n\nThese are described with reference to the index image below.\n\n\n\nQuickMAPS index image of the information banner\n\n\nThe ‘baseline’ header (area A on the index image) confirms this to be the QuickMAPS baseline view for the chosen country and micronutrient (area B).\nThe title banner (area C) provides information on the country, micronutrient, and confirmation that food systems data is being used.\nThe title banner then also provides more detail on the food composition data which the tool has matched to the information on food availability/apparent intake. The extent to which the foods have been matched to food composition data is provided (area D), and the proportion of foods matched to individual composition tables is provided. This also, importantly, summarises the proportion of foods which were not matched and thus were not included in the model outputs on the screen below. Further details on these are able to be seen by expanding the window (using the ‘view details’ arrow immediately to the right of the letter D).\nAdditional information on the food composition data being used is shown in the drop-down area (E on the index image), with the number of items, and their contribution by weight, used from each source dataset. This also shows the number, and proportion by weight, of items not matched in the MAPS tool and therefore excluded from the model results shown in the screen below. These data are provided to support methodological transparency.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Using QuickMAPS</span>"
+    ]
+  },
+  {
+    "objectID": "CostEffectiveness.html",
+    "href": "CostEffectiveness.html",
+    "title": "5  Cost & effectiveness modelling in MAPS",
+    "section": "",
+    "text": "5.1 Accessing cost and effectiveness modelling in MAPS\nCost and effectiveness modelling can be accessed directly through https://maps.micronutrient.support/maps-tool or the alias https://www.maps.africa/. No log in is required.\n{insert figure with button on}",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Cost & effectiveness modelling in MAPS</span>"
+    ]
+  },
+  {
+    "objectID": "CostEffectiveness.html#initial-selection-menu",
+    "href": "CostEffectiveness.html#initial-selection-menu",
+    "title": "5  Cost & effectiveness modelling in MAPS",
+    "section": "5.2 Initial selection menu",
+    "text": "5.2 Initial selection menu\nmore content to follow….",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Cost & effectiveness modelling in MAPS</span>"
+    ]
+  },
+  {
+    "objectID": "CostEffectiveness.html#section",
+    "href": "CostEffectiveness.html#section",
+    "title": "5  Cost & effectiveness modelling in MAPS",
+    "section": "5.3 ",
+    "text": "5.3",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Cost & effectiveness modelling in MAPS</span>"
+    ]
+  },
+  {
+    "objectID": "QuickMAPS.html#contextual-information-shown-on-all-data-views-for-food-systems-data-modelling",
+    "href": "QuickMAPS.html#contextual-information-shown-on-all-data-views-for-food-systems-data-modelling",
+    "title": "4  Using QuickMAPS",
+    "section": "5.1 Contextual information shown on all data views for food systems data modelling",
+    "text": "5.1 Contextual information shown on all data views for food systems data modelling\nThe format of the upper part of the screen is consistent for all food systems data in QuickMAPS. The example below shows that of calcium in South Africa.\n\n\n\nQuickMAPS baseline page - information banner (South Africa & calcium example shown)\n\n\nThese are described with reference to the index image below.\n\n\n\nQuickMAPS index image of the information banner\n\n\nThe ‘baseline’ header (area A on the index image) confirms this to be the QuickMAPS baseline view for the chosen country and micronutrient (area B).\nThe title banner (area C) provides information on the country, micronutrient, and confirmation that food systems data is being used.\nThe title banner then also provides more detail on the food composition data which the tool has matched to the information on food availability/apparent intake. The extent to which the foods have been matched to food composition data is provided (area D), and the proportion of foods matched to individual composition tables is provided. This also, importantly, summarises the proportion of foods which were not matched and thus were not included in the model outputs on the screen below. Further details on these are able to be seen by expanding the window (using the ‘view details’ arrow immediately to the right of the letter D).\nAdditional information on the food composition data being used is shown in the drop-down area (E on the index image), with the number of items, and their contribution by weight, used from each source dataset. This also shows the number, and proportion by weight, of items not matched in the MAPS tool and therefore excluded from the model results shown in the screen below. These data are provided to support methodological transparency.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Using QuickMAPS</span>"
     ]

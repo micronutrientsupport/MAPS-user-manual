@@ -1,3 +1,5 @@
+![](images/MAPS_sticker_purple.png){fig-alt="MAPS tool logo" fig-align="left" width="200"}
+
 # About this guide
 
 This guide is intended to provide additional information on the data and visualisations in the ***Micronutrient Action Policy Support (MAPS)*** tool. This guide can be read in sequence, or users can use the navigation panels to directly select the section and functionality they are interested in.
