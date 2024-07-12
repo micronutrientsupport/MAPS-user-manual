@@ -35,5 +35,3 @@ The selection side bar will automatically close to the left of the screen to max
 ## Changing the initial selection of country and / or micronutrient
 
 The side bar can be re--opened using the icon ![](images/SideBar_closedviewicon.png){width="14"} and the steps shown [above](https://help.micronutrient.support/QuickMAPS.html#country-and-micronutrient-selection) used to view any different permutation of the countries and nutrients for which data is loaded.
-
-# 

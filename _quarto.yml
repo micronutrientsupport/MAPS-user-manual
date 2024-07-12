@@ -19,7 +19,7 @@ book:
     - intro.qmd
     - summary.qmd
     - QuickMAPS.qmd
-    - QuickMAPS 2 baseline.qmd
+    - QuickMAPS2_baseline.qmd
 #    - CostEffectiveness.qmd
     - glossary.qmd
 #    - references.qmd

@@ -2,8 +2,6 @@
 
 The view which next appears has default components which appear on all pages, irrespective of whether sub-national, or national, data have been retrieved.
 
-## Contextual information shown on all data views for food systems data modelling
-
 The format of the upper part of the screen is consistent for all food systems data in QuickMAPS. The example below shows that of calcium in South Africa.
 
 ![QuickMAPS baseline page - information banner (South Africa & calcium example shown)](images/QuickMAPS_baseline_topbanner.png){fig-alt="QuickMAPS baseline page - information banner"}
@@ -21,5 +19,3 @@ The title banner then also provides more detail on the food composition data whi
 Additional information on the food composition data being used is shown in the drop-down area (E on the index image), with the number of items, and their contribution by weight, used from each source dataset. This also shows the number, and proportion by weight, of items not matched in the MAPS tool and therefore excluded from the model results shown in the screen below. These data are provided to support methodological transparency.
 
 {{ *work-in-progress more content to come* }}
-
-### 

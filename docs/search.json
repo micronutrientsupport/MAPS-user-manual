@@ -170,5 +170,15 @@
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Using QuickMAPS</span>"
     ]
+  },
+  {
+    "objectID": "QuickMAPS2_baseline.html",
+    "href": "QuickMAPS2_baseline.html",
+    "title": "5  QuickMAPS Baseline",
+    "section": "",
+    "text": "The view which next appears has default components which appear on all pages, irrespective of whether sub-national, or national, data have been retrieved.\nThe format of the upper part of the screen is consistent for all food systems data in QuickMAPS. The example below shows that of calcium in South Africa.\n\n\n\nQuickMAPS baseline page - information banner (South Africa & calcium example shown)\n\n\nThese are described with reference to the index image below.\n\n\n\nQuickMAPS index image of the information banner\n\n\nThe ‘baseline’ header (area A on the index image) confirms this to be the QuickMAPS baseline view for the chosen country and micronutrient (area B).\nThe title banner (area C) provides information on the country, micronutrient, and confirmation that food systems data is being used.\nThe title banner then also provides more detail on the food composition data which the tool has matched to the information on food availability/apparent intake. The extent to which the foods have been matched to food composition data is provided (area D), and the proportion of foods matched to individual composition tables is provided. This also, importantly, summarises the proportion of foods which were not matched and thus were not included in the model outputs on the screen below. Further details on these are able to be seen by expanding the window (using the ‘view details’ arrow immediately to the right of the letter D).\nAdditional information on the food composition data being used is shown in the drop-down area (E on the index image), with the number of items, and their contribution by weight, used from each source dataset. This also shows the number, and proportion by weight, of items not matched in the MAPS tool and therefore excluded from the model results shown in the screen below. These data are provided to support methodological transparency.\n{{ work-in-progress more content to come }}",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS Baseline</span>"
+    ]
   }
 ]
