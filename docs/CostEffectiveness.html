@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="MAPS team">
-<meta name="dcterms.date" content="2024-07-03">
 
-<title>MAPS tool user guide</title>
+<title>MAPS tool user guide - 5&nbsp; Cost &amp; effectiveness modelling in MAPS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./intro.html" rel="next">
+<link href="./glossary.html" rel="next">
+<link href="./QuickMAPS.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">About this guide</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./CostEffectiveness.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Cost &amp; effectiveness modelling in MAPS</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -109,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">About this guide</span></span></a>
   </div>
 </li>
@@ -133,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./CostEffectiveness.html" class="sidebar-item-text sidebar-link">
+  <a href="./CostEffectiveness.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Cost &amp; effectiveness modelling in MAPS</span></span></a>
   </div>
 </li>
@@ -153,7 +152,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#about-this-guide" id="toc-about-this-guide" class="nav-link active" data-scroll-target="#about-this-guide"><span class="header-section-number">1</span> About this guide</a></li>
+  <li><a href="#accessing-cost-and-effectiveness-modelling-in-maps" id="toc-accessing-cost-and-effectiveness-modelling-in-maps" class="nav-link active" data-scroll-target="#accessing-cost-and-effectiveness-modelling-in-maps"><span class="header-section-number">5.1</span> Accessing cost and effectiveness modelling in MAPS</a></li>
+  <li><a href="#initial-selection-menu" id="toc-initial-selection-menu" class="nav-link" data-scroll-target="#initial-selection-menu"><span class="header-section-number">5.2</span> Initial selection menu</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><span class="header-section-number">5.3</span> </a></li>
   </ul>
 </nav>
     </div>
@@ -162,27 +163,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MAPS tool user guide</h1>
-<p class="subtitle lead">The Micronutrient Action Policy Support (MAPS) tool</p>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Cost &amp; effectiveness modelling in MAPS</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>MAPS team </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">July 3, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -192,17 +180,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/MAPS_sticker_purple.png" class="img-fluid quarto-figure quarto-figure-left figure-img" alt="MAPS tool logo" width="200"></p>
-</figure>
-</div>
-<section id="about-this-guide" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> About this guide</h1>
-<p>This guide is intended to provide additional information on the data and visualisations in the <strong><em>Micronutrient Action Policy Support (MAPS)</em></strong> tool. This guide can be read in sequence, or users can use the navigation panels to directly select the section and functionality they are interested in.</p>
-<p>This guide release precedes the completion of tool functionality, as part of our iterative release practice, and is being updated as features are released. Where text is yet to be released, or sections relate to features still under development, this is indicated by the following symbol: <img src="images/WiP_purplespanner.svg" class="img-fluid" alt="work-in-progress">.</p>
-<p>Complementary guides are provided for educational users <img src="images/WiP_purplespanner.svg" class="img-fluid" alt="work-in-progress"> and web developers <img src="images/WiP_purplespanner.svg" class="img-fluid" alt="work-in-progress">.</p>
-<p>Further information on the project and project team which created the MAPS tool can be found at the project website <a href="https://micronutrient.support/" class="uri">https://micronutrient.support/</a>. A summary of our co-design process, implemented to design and test the MAPS tool, can be found at [<img src="images/WiP_purplespanner.svg" class="img-fluid" alt="work-in-progress">].</p>
+<section id="accessing-cost-and-effectiveness-modelling-in-maps" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="accessing-cost-and-effectiveness-modelling-in-maps"><span class="header-section-number">5.1</span> Accessing cost and effectiveness modelling in MAPS</h2>
+<p>Cost and effectiveness modelling can be accessed directly through <a href="https://maps.micronutrient.support/maps-tool" class="uri">https://maps.micronutrient.support/maps-tool</a> or the alias <a href="https://www.maps.africa/" class="uri">https://www.maps.africa/</a>. No log in is required.</p>
+<p>{insert figure with button on}</p>
+</section>
+<section id="initial-selection-menu" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="initial-selection-menu"><span class="header-section-number">5.2</span> Initial selection menu</h2>
+<p>more content to follow….</p>
+</section>
+<section id="section" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="section"><span class="header-section-number">5.3</span> </h2>
 
 
 </section>
@@ -619,10 +607,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./QuickMAPS.html" class="pagination-link" aria-label="Using QuickMAPS">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Using QuickMAPS</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link" aria-label="Accessing, and returning to, the MAPS tool">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Accessing, and returning to, the MAPS tool</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./glossary.html" class="pagination-link" aria-label="Glossary for this guide">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Glossary for this guide</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

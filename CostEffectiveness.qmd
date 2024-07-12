@@ -1,0 +1,13 @@
+# Cost & effectiveness modelling in MAPS
+
+## Accessing cost and effectiveness modelling in MAPS
+
+Cost and effectiveness modelling can be accessed directly through <https://maps.micronutrient.support/maps-tool> or the alias <https://www.maps.africa/>. No log in is required.
+
+{insert figure with button on}
+
+Once selected the user will see a MAPS information pop-up. This can be
+
+## Initial selection menu
+
+## 
