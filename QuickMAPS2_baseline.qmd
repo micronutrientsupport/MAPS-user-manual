@@ -24,6 +24,10 @@ Either two or four 'cards' are then presented on the page, depending on whether 
 
 ## Geographic presentation
 
-A map of the data is shown. Where food balance sheet data is presented, then there is only one summary value for the whole country (reflecting the input data, see methods ![](images/WiP_purplespanner.svg)). Where
+A map of the data is shown, on the top left when in default presentation mode. Where food balance sheet data is presented, then there is only one summary value for the whole country (reflecting the input data, see methods ![](images/WiP_purplespanner.svg)). Where sub-national data is shown, the data is disaggregated to the first administrative level. An example of each of these is shown below.
+
+\<\<insert figure\>\>
+
+In both cases the polygons on the map (i.e. the shaded area(s) within the country of interest) can also be interacted with by hovering over them until a pop-up appears, containing numerical summaries.
 
 {{ *work-in-progress more content to come* }}
