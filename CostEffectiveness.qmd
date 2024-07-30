@@ -4,9 +4,9 @@
 
 Cost and effectiveness modelling can be accessed directly through <https://maps.micronutrient.support/maps-tool> or the alias <https://www.maps.africa/>. No log in is required.
 
-{insert figure with button on}
+![The options to enter via QuickMAPS (lower left of screenshot) or Cost & Effectiveness (lower right of screenshot) available on navigating to the tool.](images/Landing_QuickMAPS_C&E.png){fig-alt="The options to enter via QuickMAPS (lower left of screenshot) or Cost & Effectiveness (lower right of screenshot) available on navigating to the tool.The options to enter via QuickMAPS (lower left of screenshot) or Cost & Effectiveness (lower right of screenshot) available on navigating to the tool." fig-align="center" width="450"}
 
-Once selected the user will see a MAPS information pop-up. This can be
+Once selected the user will see a MAPS information pop-up. This can be retrieved at any time as described [above](https://help.micronutrient.support/QuickMAPS.html#initial-selection-menu).
 
 ## Initial selection menu
 

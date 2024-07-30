@@ -38,4 +38,6 @@ There are a number of visualisation options available in this window, with the d
 
 ## Distribution of the biomarker data
 
-Further summary information is provided through a histogram and table of summary statistics of the overall dataset (country-nutrient-demographic group) of biomarker data in the lower window of this section of the MAPS tool.
+Further summary information is provided through a histogram and table of summary statistics of the overall dataset (country-nutrient-demographic group) of biomarker data in the lower window of this section of the MAPS tool. An example of this is shown below.
+
+![Example biomarker dataset histogram](images/QuickMAPS_biomarker_graph2.png){fig-alt="Example biomarker dataset histogram" fig-align="center" width="1000"}
