@@ -1,1 +1,19 @@
 # QuickMAPS iv: Biomarker data
+
+The instructions to select country and nutrient in the Baseline sidebar will reveal the Biomarker option, if the combination of country and nutrient have biomarker data loaded. When this is the case, the Biomarker option shows no longer greyed out, as in the image below.
+
+![QuickMAPS baseline sidebar with biomarker option available](images/QuickMAPS_biomarker_sidebar1.png){fig-alt="QuickMAPS baseline sidebar with biomarker option available" width="204"}
+
+When selecting the biomarker button, the options specific to this data type are then made available as shown in the image below.
+
+![QuickMAPS baseline sidebar with specific data options visible](images/QuickMAPS_biomarker_sidebar2.png){fig-alt="QuickMAPS baseline sidebar with specific data options visible" width="204"}
+
+These additional options are highlighted in the index image below
+
+![QuickMAPS baseline biomarker sidebar index image](images/QuickMAPS_biomarker_sidebar3.png){fig-alt="QuickMAPS baseline biomarker sidebar index image" width="275"}
+
+Area A: This confirms the biomarker data option is selected as described above.
+
+Area B: The user can choose the biomarker where more than one is avaiable.
+
+Area C: The user can choose the demographic group they would like to explore data for.
