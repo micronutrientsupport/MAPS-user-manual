@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>costeffectiveness</title>
+<title>MAPS tool user guide - 8&nbsp; Cost &amp; effectiveness modelling in MAPS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,33 +23,186 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="CostEffectiveness_files/libs/clipboard/clipboard.min.js"></script>
-<script src="CostEffectiveness_files/libs/quarto-html/quarto.js"></script>
-<script src="CostEffectiveness_files/libs/quarto-html/popper.min.js"></script>
-<script src="CostEffectiveness_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="CostEffectiveness_files/libs/quarto-html/anchor.min.js"></script>
-<link href="CostEffectiveness_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="CostEffectiveness_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="CostEffectiveness_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="CostEffectiveness_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="CostEffectiveness_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./glossary.html" rel="next">
+<link href="./QuickMAPS4_biomarkers.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
 
 </head>
 
-<body class="fullcontent">
+<body class="nav-sidebar floating">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./CostEffectiveness.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Cost &amp; effectiveness modelling in MAPS</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./images/MAPS_sticker_purple.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">MAPS tool user guide</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">About this guide</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Accessing, and returning to, the MAPS tool</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Overview of the MAPS tool features</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./QuickMAPS.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">QuickMAPS i: Getting started</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./QuickMAPS2_baseline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">QuickMAPS ii: Baseline page</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./QuickMAPS3_projections.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">QuickMAPS iii: Projections</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./QuickMAPS4_biomarkers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">QuickMAPS iv: Biomarker data</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CostEffectiveness.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Cost &amp; effectiveness modelling in MAPS</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Glossary for this guide</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#accessing-cost-and-effectiveness-modelling-in-maps" id="toc-accessing-cost-and-effectiveness-modelling-in-maps" class="nav-link active" data-scroll-target="#accessing-cost-and-effectiveness-modelling-in-maps"><span class="header-section-number">8.1</span> Accessing cost and effectiveness modelling in MAPS</a></li>
+  <li><a href="#initial-selection-menu" id="toc-initial-selection-menu" class="nav-link" data-scroll-target="#initial-selection-menu"><span class="header-section-number">8.2</span> Initial selection menu</a></li>
+  <li><a href="#creating-an-intervention" id="toc-creating-an-intervention" class="nav-link" data-scroll-target="#creating-an-intervention"><span class="header-section-number">8.3</span> Creating an intervention</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Cost &amp; effectiveness modelling in MAPS</span></h1>
+</div>
 
 
 
-<section id="cost-effectiveness-modelling-in-maps" class="level1">
-<h1>Cost &amp; effectiveness modelling in MAPS</h1>
-<section id="accessing-cost-and-effectiveness-modelling-in-maps" class="level2">
-<h2 class="anchored" data-anchor-id="accessing-cost-and-effectiveness-modelling-in-maps">Accessing cost and effectiveness modelling in MAPS</h2>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="accessing-cost-and-effectiveness-modelling-in-maps" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="accessing-cost-and-effectiveness-modelling-in-maps"><span class="header-section-number">8.1</span> Accessing cost and effectiveness modelling in MAPS</h2>
 <p>Cost and effectiveness modelling can be accessed directly through <a href="https://maps.micronutrient.support/maps-tool" class="uri">https://maps.micronutrient.support/maps-tool</a> or the alias <a href="https://www.maps.africa/" class="uri">https://www.maps.africa/</a>. No log in is required.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -59,8 +212,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>Once selected the user will see a MAPS information pop-up. This can be retrieved at any time as described in section <a href="https://help.micronutrient.support/QuickMAPS.html#initial-selection-menu">4.2</a>.</p>
 </section>
-<section id="initial-selection-menu" class="level2">
-<h2 class="anchored" data-anchor-id="initial-selection-menu">Initial selection menu</h2>
+<section id="initial-selection-menu" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="initial-selection-menu"><span class="header-section-number">8.2</span> Initial selection menu</h2>
 <p>The initial Cost &amp; Effectiveness window provides support to users in creating a new intervention, and if you have stored interventions these will appear here.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -80,14 +233,14 @@ ul.task-list li input[type="checkbox"] {
 <p>Area C: The shopping basket icon provides a summary of models in the user account.</p>
 <p>Area D: This button should be used to create a new intervention.</p>
 </section>
-<section id="creating-an-intervention" class="level2">
-<h2 class="anchored" data-anchor-id="creating-an-intervention">Creating an intervention</h2>
-<p>{{this section is currently under development}}</p>
-</section>
+<section id="creating-an-intervention" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="creating-an-intervention"><span class="header-section-number">8.3</span> Creating an intervention</h2>
+<p>{{<span class="smallcaps"><em>this and subsequent sections are currently under construction</em></span>}}</p>
+
+
 </section>
 
-</main>
-<!-- /main column -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -497,6 +650,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./QuickMAPS4_biomarkers.html" class="pagination-link" aria-label="QuickMAPS iv: Biomarker data">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">QuickMAPS iv: Biomarker data</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./glossary.html" class="pagination-link" aria-label="Glossary for this guide">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Glossary for this guide</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
