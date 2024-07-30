@@ -1,6 +1,6 @@
-# QuickMAPS 2: Baseline page
+# QuickMAPS ii: Baseline page
 
-The view which next appears has default components which appear on all pages, irrespective of whether sub-national, or national, data have been retrieved.
+The view which next appears has default components which appear on all pages, irrespective of whether sub-national, or national, data have been retrieved. This section describes the Baseline presentation of food systems data, a separate section describes biomarker data, which can also be selected from this interface.
 
 ## Baseline data information section
 

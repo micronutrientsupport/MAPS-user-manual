@@ -24,6 +24,7 @@ book:
     - QuickMAPS.qmd
     - QuickMAPS2_baseline.qmd
     - QuickMAPS3_projections.qmd
+    - QuickMAPS4_biomarkers.qmd
 #    - CostEffectiveness.qmd
     - glossary.qmd
 #    - references.qmd

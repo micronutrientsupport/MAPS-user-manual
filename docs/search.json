@@ -82,101 +82,111 @@
   {
     "objectID": "QuickMAPS2_baseline.html",
     "href": "QuickMAPS2_baseline.html",
-    "title": "5  QuickMAPS 2: Baseline page",
+    "title": "5  QuickMAPS ii: Baseline page",
     "section": "",
     "text": "5.1 Baseline data information section\nThe format of the upper part of the screen is consistent for all food systems data in QuickMAPS. The example below shows that of calcium in South Africa.\nThese are described with reference to the index image below.\nThe ‘baseline’ header (area A on the index image) confirms this to be the QuickMAPS baseline view for the chosen country and micronutrient (area B).\nThe title banner (area C) provides information on the country, micronutrient, and confirmation that food systems data is being used.\nThe title banner then also provides more detail on the food composition data which the tool has matched to the information on food availability/apparent intake. The extent to which the foods have been matched to food composition data is provided (area D), and the proportion of foods matched to individual composition tables is provided. This also, importantly, summarises the proportion of foods which were not matched and thus were not included in the model outputs on the screen below. Further details on these are able to be seen by expanding the window (using the ‘view details’ arrow immediately to the right of the letter D).\nAdditional information on the food composition data being used is shown in the drop-down area (E on the index image), with the number of items, and their contribution by weight, used from each source dataset. This also shows the number, and proportion by weight, of items not matched in the MAPS tool and therefore excluded from the model results shown in the screen below. These data are provided to support methodological transparency.\nEither two or four ‘cards’ are then presented on the page, depending on whether the tool has national scale food balance sheet data (two cards), or sub-national household consumption and expenditure survey data (four cards) loaded. The options available on these cards are summarised below - those appearing on all cards are not repeated after their first occurrence.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS 2: Baseline page</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS ii: Baseline page</span>"
     ]
   },
   {
     "objectID": "QuickMAPS2_baseline.html#baseline-data-information-section",
     "href": "QuickMAPS2_baseline.html#baseline-data-information-section",
-    "title": "5  QuickMAPS 2: Baseline page",
+    "title": "5  QuickMAPS ii: Baseline page",
     "section": "",
     "text": "QuickMAPS baseline page - information banner (South Africa & calcium example shown)\n\n\n\n\n\n\nQuickMAPS index image of the information banner",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS 2: Baseline page</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS ii: Baseline page</span>"
     ]
   },
   {
     "objectID": "QuickMAPS2_baseline.html#geographic-presentation",
     "href": "QuickMAPS2_baseline.html#geographic-presentation",
-    "title": "5  QuickMAPS 2: Baseline page",
+    "title": "5  QuickMAPS ii: Baseline page",
     "section": "5.2 Geographic presentation",
     "text": "5.2 Geographic presentation\nA map of the data is shown, on the top left when in default presentation mode. Where food balance sheet data is presented, then there is only one summary value for the whole country (reflecting the input data, see methods ). Where sub-national data is shown, the data is disaggregated to the first administrative level. An example of each of these is shown below.\n\n\n\nMapped presentation of either national (left image) or sub-national (right) image data\n\n\nIn both cases the polygons on the map (i.e. the shaded area(s) within the country of interest) can also be interacted with by hovering over them until a pop-up appears, containing numerical summaries. The information contained on this mapping interactive graphic shown in the index image below.\n\n\n\nIndex image for the mapping interactive graphics in MAPS for national (left image) or sub-national (right image) data\n\n\nArea A: The leftmost one (six dots) does not alter the data view; the central icon (cog) allows the user to alter the colour shown on the mapped area - this can be particularly useful where the default colours are not sufficiently distinct for a user; the rightmost icon (an “i”) provides some summary information about the estimates presented.\nArea B: The card can be expanded using this pop-out arrow option; this is available on all cards.\nArea C : Two mapped views are available for the sub-national data, with the default showing absolute values and the option showing the ‘variation from threshold’, whilst only the default absolute value is available for national data; additionally some summary information about the estimates presented, which is identical to the link using the “i” icon in area A.\nArea D: The window has options to move around geographically (using your device mouse/track-pad/touch-screen) and to zoom using the plus (+) or minus (-) symbols; the ‘house’ icon will restore the optimal zoom level for the chosen geography, and can be used to readily restore this view.\nArea E: this camera icon allows an image of the map to be saved, and provides an option in addition to users’ screen capture options.\nArea F: this is the legend for the colour used on the map, and will update depending on the colour ramp chosen if the default is altered (area A).\nArea G: whilst hovering over an area (national or subnational) a pop-up will appear which provides summary information for the area.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS 2: Baseline page</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS ii: Baseline page</span>"
     ]
   },
   {
     "objectID": "QuickMAPS2_baseline.html#foods-contributing-to-the-micronutrient-estimates",
     "href": "QuickMAPS2_baseline.html#foods-contributing-to-the-micronutrient-estimates",
-    "title": "5  QuickMAPS 2: Baseline page",
+    "title": "5  QuickMAPS ii: Baseline page",
     "section": "5.3 Foods contributing to the micronutrient estimates",
     "text": "5.3 Foods contributing to the micronutrient estimates\nThe top twenty food items (by weight) are presented for both national and subnational estimates. This takes the form of a “treemap”, where the foods are ordered from largest to smallest contribution, and the area is proportional to the quantity from these twenty items. An example of this is shown below.\n\n\n\nA treemap showing the top twenty food items\n\n\nThe index image below shows some of the key options on this card, which are not already described above for the mapped image card.\n\n\n\nIndex image of the treemap card in QuickMAPS\n\n\nArea A: The card defaults to showing food items at their most disaggregated level (Food Genus), alternatively the Food Group option can be selected to view the data aggregated too food group level. The data table for the top twenty foods can be viewed using the “Table (All Data)” option. Download of these, and an accompanying citation, can be accessed through the ‘Download’ option. There is a short summary of the information presented in ‘about these estimates’ (most right-hand option).\n’Area B: similar to the mapped image, the distinct areas within the image are interactive, and the data can be viewed through a pop-up visible when the cursor is moved over each area.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS 2: Baseline page</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS ii: Baseline page</span>"
     ]
   },
   {
     "objectID": "QuickMAPS2_baseline.html#seasonality-information",
     "href": "QuickMAPS2_baseline.html#seasonality-information",
-    "title": "5  QuickMAPS 2: Baseline page",
+    "title": "5  QuickMAPS ii: Baseline page",
     "section": "5.4 Seasonality information",
     "text": "5.4 Seasonality information\nSubnational data arising from household consumption and expenditure surveys often includes data which provide monthly disaggregation. These are shown as proportional stacked bars.\n\n\n\nQuickMAPS seasonality information\n\n\nThe options for this graph card are consistent with those described above, including the interactive option when the cursor is moved across areas of the graph. As an alternative to the default, a line chart can be viewed if preferred. The options to view the data and download either images or data are consistent with the treemap (above), as is the option to read a method brief summary in ‘about these estimates’.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS 2: Baseline page</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS ii: Baseline page</span>"
     ]
   },
   {
     "objectID": "QuickMAPS2_baseline.html#histogram",
     "href": "QuickMAPS2_baseline.html#histogram",
-    "title": "5  QuickMAPS 2: Baseline page",
+    "title": "5  QuickMAPS ii: Baseline page",
     "section": "5.5 Histogram",
     "text": "5.5 Histogram\nThe distribution of household apparent intake is shown in a histogram; this is only available where subnational data are loaded.\n\n\n\nHistogram of household nutrient apparent intake\n\n\nThe histogram shows the distribution of the apparent intake of the chosen dataset; the Table (All Data) option shows the data to replicate this histogram, namely the count of households in each histogram bin. The options Download and About these estimates are as for the Seasonality card above.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS 2: Baseline page</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS ii: Baseline page</span>"
     ]
   },
   {
     "objectID": "QuickMAPS3_projections.html",
     "href": "QuickMAPS3_projections.html",
-    "title": "6  QuickMAPS 3: Projections",
+    "title": "6  QuickMAPS iii: Projections",
     "section": "",
-    "text": "6.1 Information banner\nThe information banner at the top of the page is structured in a very similar way to that of the Baseline page: an example is shown below of the projection page.\nThe information provided on this page is described using the index image below.\nArea A: confirms the projections tab is selected\nArea B: A summary of the country, nutrient, food system data (as for Baseline), and the default model selected which is SSP2 (see below).\nArea C: The 2010 estimate is compared to the threshold used in the Baseline page, to explore the difference between these data and when the projections are expected to reach the threshold.",
+    "text": "6.1 Information banner\nThe information banner at the top of the page is structured in a very similar way to that of the Baseline page: an example is shown below of the projection page.\nThe information uniquely provided on this page is described using the index image below.\nArea A: confirms the projections tab is selected\nArea B: A summary of the country, nutrient, food system data (as for Baseline), and the default model selected which is SSP2 (see below).\nArea C: The 2010 estimate is compared to the threshold used in the Baseline page, to explore the difference between these data and when the projections are expected to reach the threshold.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS 3: Projections</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS iii: Projections</span>"
     ]
   },
   {
     "objectID": "QuickMAPS3_projections.html#information-banner",
     "href": "QuickMAPS3_projections.html#information-banner",
-    "title": "6  QuickMAPS 3: Projections",
+    "title": "6  QuickMAPS iii: Projections",
     "section": "",
-    "text": "QuickMAPS projections information banner\n\n\n\n\n\n\nQuickMAPS projections information banner index image\n\n\n\n\n\n\n6.1.1 Shared socioeconomic pathways (SSP)\nThe default model used is SSP2; further information can be retrieved about the Shared Socioeconomic Projections (SSP) by selecting the text “Learn more” on the right of area B. When selected an explanatory pop-up can be viewed, as shown below.\n\n\n\nQuickMAPS projections shared socioeconomic projections (SSP) explanatory text",
+    "text": "QuickMAPS projections information banner\n\n\n\n\n\n\nQuickMAPS projections information banner index image\n\n\n\n\n\n\n6.1.1 Shared socioeconomic pathways (SSP)\nThe default model used is SSP2; further information can be retrieved about the Shared Socioeconomic Projections (SSP) by selecting the text “Learn more” on the right of area B. When selected an explanatory pop-up can be viewed, as shown here.\n\n\n\nQuickMAPS projections shared socioeconomic projections (SSP) explanatory text",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS 3: Projections</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS iii: Projections</span>"
     ]
   },
   {
     "objectID": "QuickMAPS3_projections.html#nutrient-availability-projection-graph",
     "href": "QuickMAPS3_projections.html#nutrient-availability-projection-graph",
-    "title": "6  QuickMAPS 3: Projections",
+    "title": "6  QuickMAPS iii: Projections",
     "section": "6.2 Nutrient availability projection graph",
     "text": "6.2 Nutrient availability projection graph\nBelow the information banner, the default view presents the nutrient availability projection graph, which includes all three SSPs (as described above), and the nutrient threshold (identical to that in area C of the banner, above) as a horizontal red line. As with other graphical presentations, these graph lines have a facility to pop-up the underlying data when the cursor is placed above the data points.\n\n\n\nQuickMAPS nutrient availability projection graph\n\n\nThis graph interface is structured in way which is consistent with the Baseline page graphs, with a default graphical view and alternate options to view the plotted data (“Table”), to “Download” the graph or plotted data, and to find a brief description of the presented data (“About Projected Calcium availability to 2050”).",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS 3: Projections</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS iii: Projections</span>"
     ]
   },
   {
     "objectID": "QuickMAPS3_projections.html#nutrient-food-source-projections",
     "href": "QuickMAPS3_projections.html#nutrient-food-source-projections",
-    "title": "6  QuickMAPS 3: Projections",
+    "title": "6  QuickMAPS iii: Projections",
     "section": "6.3 Nutrient food source projections",
-    "text": "6.3 Nutrient food source projections\nBelow the SSP nutrient projections graph shown above, a further interactive graph is available which shows the key food sources which these projections comprise.\n\n\n\nFood source projections for the chosen nutrient\n\n\nThis graphic is structured in the same way as the other Baseline and the nutrient projections graph - the default presentation is the graph but the plotted data is available, as are the downloads and further information shown for other cards. Additional functionality is found in this card, as highlighted in the index image below.\n\n\n\nFood source projections index image\n\n\nArea A: The default view is of the foods described as commodities; this can be altered to ‘food groups’ using the dropdown option.\nArea B: the default view is SSP2, but the user can choose SSP1 or SSP3 (see above): these options can be selected for either the commodity or the food group display.\nArea C: The legend describes the food sources in the graph area.\nThe legend (area C) can also be used to reduce the presented data to show the commodities (or food groups) of most interest to the user. When these are deselected, the name appears as a strikethrough font as shown in the image below, and the y axis of the graph recalculates to maximise the visible bars.\n\n\n\nFood source projections with the food groups ‘cereals’ and ‘other’ removed from view.",
+    "text": "6.3 Nutrient food source projections\nBelow the SSP nutrient projections graph shown above, a further interactive graph is available which shows the key food sources which these projections comprise.\n\n\n\nFood source projections for the chosen nutrient\n\n\nThis graphic is structured in the same way as the other Baseline and the nutrient projections graph - the default presentation is the graph but the plotted data is available, as are the downloads and further information shown for other cards. Additional functionality is found in this card, as highlighted in the index image below.\n\n\n\nFood source projections index image\n\n\nArea A: The default view is of the foods described as commodities; this can be altered to ‘food groups’ using the dropdown option.\nArea B: the default view is SSP2, but the user can choose SSP1 or SSP3 (see above): these options can be selected for either the commodity or the food group display.\nArea C: The legend describes the food sources in the graph area.\nThe legend (area C) can also be used to reduce the presented data to show the commodities (or food groups) of most interest to the user. When these are deselected, the name appears as a strikethrough font as shown in the image below, and the y axis of the graph recalculates to maximise the visible bars. In this case food sources are summarised by food groups and SSP3 results are shown.\n\n\n\nFood source projections with the food groups ‘cereals’ and ‘other’ removed from view.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS 3: Projections</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS iii: Projections</span>"
+    ]
+  },
+  {
+    "objectID": "QuickMAPS4_biomarkers.html",
+    "href": "QuickMAPS4_biomarkers.html",
+    "title": "7  QuickMAPS 4: Biomarker data",
+    "section": "",
+    "text": "7.1",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>QuickMAPS 4: Biomarker data</span>"
     ]
   }
 ]
