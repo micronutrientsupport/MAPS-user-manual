@@ -144,7 +144,7 @@
     "href": "QuickMAPS3_projections.html",
     "title": "6  QuickMAPS 3: Projections",
     "section": "",
-    "text": "6.1 Information banner\nThe information banner at the top of the page is structured in a very similar way to that of the Baseline page: an example is shown below of the projection page.\nThe information provided on this page is described using the index image below.\nArea A: confirms the projections tab is selected\nArea B: A summary of the country, nutrient, food system data (as for Baseline), and the default model selected which is SSP2 (see below).\nArea C: The 2010 estimate is compared to the threshold used in the Baseline page, to explore the difference between these data and when the projections are expected to reach the threshold.\nThe default model used is SSP2; further information can be retrieved about the Shared Socioeconomic Projections (SSP) by selecting the text “Learn more” on the right of area B. When selected an explanatory pop-up can be viewed, as shown below.",
+    "text": "6.1 Information banner\nThe information banner at the top of the page is structured in a very similar way to that of the Baseline page: an example is shown below of the projection page.\nThe information provided on this page is described using the index image below.\nArea A: confirms the projections tab is selected\nArea B: A summary of the country, nutrient, food system data (as for Baseline), and the default model selected which is SSP2 (see below).\nArea C: The 2010 estimate is compared to the threshold used in the Baseline page, to explore the difference between these data and when the projections are expected to reach the threshold.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS 3: Projections</span>"
     ]
@@ -154,7 +154,7 @@
     "href": "QuickMAPS3_projections.html#information-banner",
     "title": "6  QuickMAPS 3: Projections",
     "section": "",
-    "text": "QuickMAPS projections information banner\n\n\n\n\n\n\nQuickMAPS projections information banner index image\n\n\n\n\n\n\n\n\n\nQuickMAPS projections shared socioeconomic projections (SSP) explanatory text",
+    "text": "QuickMAPS projections information banner\n\n\n\n\n\n\nQuickMAPS projections information banner index image\n\n\n\n\n\n\n6.1.1 Shared socioeconomic pathways (SSP)\nThe default model used is SSP2; further information can be retrieved about the Shared Socioeconomic Projections (SSP) by selecting the text “Learn more” on the right of area B. When selected an explanatory pop-up can be viewed, as shown below.\n\n\n\nQuickMAPS projections shared socioeconomic projections (SSP) explanatory text",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS 3: Projections</span>"
     ]
@@ -164,7 +164,17 @@
     "href": "QuickMAPS3_projections.html#nutrient-availability-projection-graph",
     "title": "6  QuickMAPS 3: Projections",
     "section": "6.2 Nutrient availability projection graph",
-    "text": "6.2 Nutrient availability projection graph\nBelow the information banner, the default view presents the nutrient availability projection graph, which includes all three SSPs (as described above).\n\n\n\nQuickMAPS nutrient availability projection graph",
+    "text": "6.2 Nutrient availability projection graph\nBelow the information banner, the default view presents the nutrient availability projection graph, which includes all three SSPs (as described above), and the nutrient threshold (identical to that in area C of the banner, above) as a horizontal red line. As with other graphical presentations, these graph lines have a facility to pop-up the underlying data when the cursor is placed above the data points.\n\n\n\nQuickMAPS nutrient availability projection graph\n\n\nThis graph interface is structured in way which is consistent with the Baseline page graphs, with a default graphical view and alternate options to view the plotted data (“Table”), to “Download” the graph or plotted data, and to find a brief description of the presented data (“About Projected Calcium availability to 2050”).",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS 3: Projections</span>"
+    ]
+  },
+  {
+    "objectID": "QuickMAPS3_projections.html#nutrient-food-source-projections",
+    "href": "QuickMAPS3_projections.html#nutrient-food-source-projections",
+    "title": "6  QuickMAPS 3: Projections",
+    "section": "6.3 Nutrient food source projections",
+    "text": "6.3 Nutrient food source projections\nBelow the SSP nutrient projections graph shown above, a further interactive graph is available which shows the key food sources which these projections comprise.\n\n\n\nFood source projections for the chosen nutrient\n\n\nThis graphic is structured in the same way as the other Baseline and the nutrient projections graph - the default presentation is the graph but the plotted data is available, as are the downloads and further information shown for other cards. Additional functionality is found in this card, as highlighted in the index image below.\n\n\n\nFood source projections index image\n\n\nArea A: The default view is of the foods described as commodities; this can be altered to ‘food groups’ using the dropdown option.\nArea B: the default view is SSP2, but the user can choose SSP1 or SSP3 (see above): these options can be selected for either the commodity or the food group display.\nArea C: The legend describes the food sources in the graph area.\nThe legend (area C) can also be used to reduce the presented data to show the commodities (or food groups) of most interest to the user. When these are deselected, the name appears as a strikethrough font as shown in the image below, and the y axis of the graph recalculates to maximise the visible bars.\n\n\n\nFood source projections with the food groups ‘cereals’ and ‘other’ removed from view.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS 3: Projections</span>"
     ]
