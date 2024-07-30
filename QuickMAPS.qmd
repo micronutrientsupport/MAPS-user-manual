@@ -1,4 +1,4 @@
-# QuickMAPS 1: Getting started
+# QuickMAPS i: Getting started
 
 ## Accessing QuickMAPS
 
