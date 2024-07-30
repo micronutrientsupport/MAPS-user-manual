@@ -1,5 +1,7 @@
 # QuickMAPS iv: Biomarker data
 
+## Biomarker data selection
+
 The instructions to select country and nutrient in the Baseline sidebar will reveal the Biomarker option, if the combination of country and nutrient have biomarker data loaded. When this is the case, the Biomarker option shows no longer greyed out, as in the image below.
 
 ![QuickMAPS baseline sidebar with biomarker option available](images/QuickMAPS_biomarker_sidebar1.png){fig-alt="QuickMAPS baseline sidebar with biomarker option available" width="204"}
@@ -17,3 +19,19 @@ Area A: This confirms the biomarker data option is selected as described above.
 Area B: The user can choose the biomarker where more than one is avaiable.
 
 Area C: The user can choose the demographic group they would like to explore data for.
+
+## Biomarker data information banner
+
+The information banner for biomarker data is structured in a consistent manner to the other QuickMAPS data banners described in sections above, and a biomarker example is shown below.
+
+![QuickMAPS biomarker data banner](images/QuickMAPS_biomarker_banner.png){fig-alt="QuickMAPS biomarker data banner"}
+
+As with food systems and projection data, the banner provides information on the data selected, and the proportion of data which falls below the applicable threshold(s) for the selected data is shown in the bottom section of this banner.
+
+## Biomarker disaggregated data summaries
+
+The default presentation of the data is a graphical presentation disaggregated by wealth quintile, which follows a similar structure to other options described in earlier sections for Baseline and projects. The summary data is available under "Aggregated Threshold Percentages", and further information under "About..." header options. An example of this is shown below.
+
+![Example default view of biomarker disaggregated summaries](images/QuickMAPS_biomarker_graph1.png){fig-alt="Example default view of biomarker disaggregated summaries"}
+
+There are a number of visualisation options available in this window, with the data summary shown in "Aggregated Threshold Percentges". It is also possible to switch from the aggregation of "Wealth Quintile" to "Urbanity", or level 1 administrative region usinig the drop down menu option at the top of this screen.

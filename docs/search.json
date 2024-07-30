@@ -184,7 +184,37 @@
     "href": "QuickMAPS4_biomarkers.html",
     "title": "7  QuickMAPS iv: Biomarker data",
     "section": "",
-    "text": "The instructions to select country and nutrient in the Baseline sidebar will reveal the Biomarker option, if the combination of country and nutrient have biomarker data loaded. When this is the case, the Biomarker option shows no longer greyed out, as in the image below.\n\n\n\nQuickMAPS baseline sidebar with biomarker option available\n\n\nWhen selecting the biomarker button, the options specific to this data type are then made available as shown in the image below.\n\n\n\nQuickMAPS baseline sidebar with specific data options visible\n\n\nThese additional options are highlighted in the index image below\n\n\n\nQuickMAPS baseline biomarker sidebar index image\n\n\nArea A: This confirms the biomarker data option is selected as described above.\nArea B: The user can choose the biomarker where more than one is avaiable.\nArea C: The user can choose the demographic group they would like to explore data for.",
+    "text": "7.1 Biomarker data selection\nThe instructions to select country and nutrient in the Baseline sidebar will reveal the Biomarker option, if the combination of country and nutrient have biomarker data loaded. When this is the case, the Biomarker option shows no longer greyed out, as in the image below.\nWhen selecting the biomarker button, the options specific to this data type are then made available as shown in the image below.\nThese additional options are highlighted in the index image below\nArea A: This confirms the biomarker data option is selected as described above.\nArea B: The user can choose the biomarker where more than one is avaiable.\nArea C: The user can choose the demographic group they would like to explore data for.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>QuickMAPS iv: Biomarker data</span>"
+    ]
+  },
+  {
+    "objectID": "QuickMAPS4_biomarkers.html#biomarker-data-selection",
+    "href": "QuickMAPS4_biomarkers.html#biomarker-data-selection",
+    "title": "7  QuickMAPS iv: Biomarker data",
+    "section": "",
+    "text": "QuickMAPS baseline sidebar with biomarker option available\n\n\n\n\n\n\nQuickMAPS baseline sidebar with specific data options visible\n\n\n\n\n\n\nQuickMAPS baseline biomarker sidebar index image",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>QuickMAPS iv: Biomarker data</span>"
+    ]
+  },
+  {
+    "objectID": "QuickMAPS4_biomarkers.html#biomarker-data-information-banner",
+    "href": "QuickMAPS4_biomarkers.html#biomarker-data-information-banner",
+    "title": "7  QuickMAPS iv: Biomarker data",
+    "section": "7.2 Biomarker data information banner",
+    "text": "7.2 Biomarker data information banner\nThe information banner for biomarker data is structured in a consistent manner to the other QuickMAPS data banners described in sections above, and a biomarker example is shown below.\n\n\n\nQuickMAPS biomarker data banner\n\n\nAs with food systems and projection data, the banner provides information on the data selected, and the proportion of data which falls below the applicable threshold(s) for the selected data is shown in the bottom section of this banner.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>QuickMAPS iv: Biomarker data</span>"
+    ]
+  },
+  {
+    "objectID": "QuickMAPS4_biomarkers.html#biomarker-disaggregated-data-summaries",
+    "href": "QuickMAPS4_biomarkers.html#biomarker-disaggregated-data-summaries",
+    "title": "7  QuickMAPS iv: Biomarker data",
+    "section": "7.3 Biomarker disaggregated data summaries",
+    "text": "7.3 Biomarker disaggregated data summaries\nThe default presentation of the data is a graphical presentation disaggregated by wealth quintile, which follows a similar structure to other options described in earlier sections for Baseline and projects. The summary data is available under “Aggregated Threshold Percentages”, and further information under “About…” header options. An example of this is shown below.\n\n\n\nExample default view of biomarker disaggregated summaries\n\n\nThere are a number of visualisation options available in this window, with the data summary shown in “Aggregated Threshold Percentges”. It is also possible to switch from the aggregation of “Wealth Quintile” to “Urbanity”, or level 1 administrative region usinig the drop down menu option at the top of this screen.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>QuickMAPS iv: Biomarker data</span>"
     ]
