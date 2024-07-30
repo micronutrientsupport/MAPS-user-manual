@@ -182,11 +182,11 @@
   {
     "objectID": "QuickMAPS4_biomarkers.html",
     "href": "QuickMAPS4_biomarkers.html",
-    "title": "7  QuickMAPS 4: Biomarker data",
+    "title": "7  QuickMAPS iv: Biomarker data",
     "section": "",
-    "text": "7.1",
+    "text": "The instructions to select country and nutrient in the Baseline sidebar will reveal the Biomarker option, if the combination of country and nutrient have biomarker data loaded. When this is the case, the Biomarker option shows no longer greyed out, as in the image below.\n\n\n\nQuickMAPS baseline sidebar with biomarker option available\n\n\nWhen selecting the biomarker button, the options specific to this data type are then made available as shown in the image below.\n\n\n\nQuickMAPS baseline sidebar with specific data options visible\n\n\nThese additional options are highlighted in the index image below\n\n\n\nQuickMAPS baseline biomarker sidebar index image\n\n\nArea A: This confirms the biomarker data option is selected as described above.\nArea B: The user can choose the biomarker where more than one is avaiable.\nArea C: The user can choose the demographic group they would like to explore data for.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>QuickMAPS 4: Biomarker data</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>QuickMAPS iv: Biomarker data</span>"
     ]
   }
 ]
