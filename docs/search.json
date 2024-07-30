@@ -220,6 +220,46 @@
     ]
   },
   {
+    "objectID": "CostEffectiveness.html",
+    "href": "CostEffectiveness.html",
+    "title": "8  Cost & effectiveness modelling in MAPS",
+    "section": "",
+    "text": "8.1 Accessing cost and effectiveness modelling in MAPS\nCost and effectiveness modelling can be accessed directly through https://maps.micronutrient.support/maps-tool or the alias https://www.maps.africa/. No log in is required.\nOnce selected the user will see a MAPS information pop-up. This can be retrieved at any time as described in section 4.2.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost & effectiveness modelling in MAPS</span>"
+    ]
+  },
+  {
+    "objectID": "CostEffectiveness.html#accessing-cost-and-effectiveness-modelling-in-maps",
+    "href": "CostEffectiveness.html#accessing-cost-and-effectiveness-modelling-in-maps",
+    "title": "8  Cost & effectiveness modelling in MAPS",
+    "section": "",
+    "text": "The options to enter via QuickMAPS (lower left of screenshot) or Cost & Effectiveness (lower right of screenshot) available on navigating to the tool.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost & effectiveness modelling in MAPS</span>"
+    ]
+  },
+  {
+    "objectID": "CostEffectiveness.html#initial-selection-menu",
+    "href": "CostEffectiveness.html#initial-selection-menu",
+    "title": "8  Cost & effectiveness modelling in MAPS",
+    "section": "8.2 Initial selection menu",
+    "text": "8.2 Initial selection menu\nThe initial Cost & Effectiveness window provides support to users in creating a new intervention, and if you have stored interventions these will appear here.\n\n\n\nThe initial window for Cost & Effectiveness modelling\n\n\nThis window contains several features to support use of these tools. These are shown in the index image below.\n\n\n\nIndex image for the initial page of the Cost & Effectiveness models\n\n\nArea A: This provides an overview of the steps that the user will follow to create a complete model.\nArea B: This “?” icon provides a short overview of the modelling functionality.\nArea C: The shopping basket icon provides a summary of models in the user account.\nArea D: This button should be used to create a new intervention.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost & effectiveness modelling in MAPS</span>"
+    ]
+  },
+  {
+    "objectID": "CostEffectiveness.html#creating-an-intervention",
+    "href": "CostEffectiveness.html#creating-an-intervention",
+    "title": "8  Cost & effectiveness modelling in MAPS",
+    "section": "8.3 Creating an intervention",
+    "text": "8.3 Creating an intervention\n{{this and subsequent sections are currently under construction}}",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost & effectiveness modelling in MAPS</span>"
+    ]
+  },
+  {
     "objectID": "glossary.html",
     "href": "glossary.html",
     "title": "9  Glossary for this guide",

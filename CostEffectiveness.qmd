@@ -28,4 +28,4 @@ Area D: This button should be used to create a new intervention.
 
 ## Creating an intervention
 
-{{this section is currently under development}}
+{{[*this and subsequent sections are currently under construction*]{.smallcaps}}}
