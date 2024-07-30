@@ -134,9 +134,39 @@
     "href": "QuickMAPS2_baseline.html#histogram",
     "title": "5  QuickMAPS 2: Baseline page",
     "section": "5.5 Histogram",
-    "text": "5.5 Histogram\nThe distribution of household apparent intake is shown in a histogram.\n\n\n\nHistogram of household nutrient apparent intake\n\n\nThe histogram shows the distribution of the apparent intake of the chosen dataset; the Table (All Data) option shows the data to replicate this histogram, namely the count of households in each histogram bin. The options Download and About these estimates are as for the Seasonality card above.",
+    "text": "5.5 Histogram\nThe distribution of household apparent intake is shown in a histogram; this is only available where subnational data are loaded.\n\n\n\nHistogram of household nutrient apparent intake\n\n\nThe histogram shows the distribution of the apparent intake of the chosen dataset; the Table (All Data) option shows the data to replicate this histogram, namely the count of households in each histogram bin. The options Download and About these estimates are as for the Seasonality card above.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>QuickMAPS 2: Baseline page</span>"
+    ]
+  },
+  {
+    "objectID": "QuickMAPS3_projections.html",
+    "href": "QuickMAPS3_projections.html",
+    "title": "6  QuickMAPS 3: Projections",
+    "section": "",
+    "text": "6.1 Information banner\nThe information banner at the top of the page is structured in a very similar way to that of the Baseline page: an example is shown below of the projection page.\nThe information provided on this page is described using the index image below.\nArea A: confirms the projections tab is selected\nArea B: A summary of the country, nutrient, food system data (as for Baseline), and the default model selected which is SSP2 (see below).\nArea C: The 2010 estimate is compared to the threshold used in the Baseline page, to explore the difference between these data and when the projections are expected to reach the threshold.\nThe default model used is SSP2; further information can be retrieved about the Shared Socioeconomic Projections (SSP) by selecting the text “Learn more” on the right of area B. When selected an explanatory pop-up can be viewed, as shown below.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS 3: Projections</span>"
+    ]
+  },
+  {
+    "objectID": "QuickMAPS3_projections.html#information-banner",
+    "href": "QuickMAPS3_projections.html#information-banner",
+    "title": "6  QuickMAPS 3: Projections",
+    "section": "",
+    "text": "QuickMAPS projections information banner\n\n\n\n\n\n\nQuickMAPS projections information banner index image\n\n\n\n\n\n\n\n\n\nQuickMAPS projections shared socioeconomic projections (SSP) explanatory text",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS 3: Projections</span>"
+    ]
+  },
+  {
+    "objectID": "QuickMAPS3_projections.html#nutrient-availability-projection-graph",
+    "href": "QuickMAPS3_projections.html#nutrient-availability-projection-graph",
+    "title": "6  QuickMAPS 3: Projections",
+    "section": "6.2 Nutrient availability projection graph",
+    "text": "6.2 Nutrient availability projection graph\nBelow the information banner, the default view presents the nutrient availability projection graph, which includes all three SSPs (as described above).\n\n\n\nQuickMAPS nutrient availability projection graph",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QuickMAPS 3: Projections</span>"
     ]
   }
 ]

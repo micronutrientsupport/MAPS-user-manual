@@ -1,0 +1,29 @@
+# QuickMAPS 3: Projections
+
+The projections page takes the country and nutrient selected in the 'Baseline' page of QuickMAPS, and provides national-scale projections of nutrient availability where these are available. To alter the nutrient availability, follow the instructions to change the country and/or nutrient which can be found in section [4.4](https://help.micronutrient.support/QuickMAPS.html#changing-the-initial-selection-of-country-and-or-micronutrient).
+
+## Information banner
+
+The information banner at the top of the page is structured in a very similar way to that of the Baseline page: an example is shown below of the projection page.
+
+![QuickMAPS projections information banner](images/QuickMAPS_projections_banner.png){fig-alt="QuickMAPS projections information banner"}
+
+The information provided on this page is described using the index image below.
+
+![QuickMAPS projections information banner index image](images/QuickMAPS_projections_banner_BW.png){fig-alt="QuickMAPS projections information banner index image"}
+
+Area A: confirms the projections tab is selected
+
+Area B: A summary of the country, nutrient, food system data (as for Baseline), and the default model selected which is SSP2 (see below).
+
+Area C: The 2010 estimate is compared to the threshold used in the Baseline page, to explore the difference between these data and when the projections are expected to reach the threshold.
+
+The default model used is SSP2; further information can be retrieved about the Shared Socioeconomic Projections (SSP) by selecting the text "Learn more" on the right of area B. When selected an explanatory pop-up can be viewed, as shown below.
+
+![QuickMAPS projections shared socioeconomic projections (SSP) explanatory text](images/QuickMAPS_projections_SSP_popup.png){fig-alt="QuickMAPS projections shared socioeconomic projections (SSP) explanatory text"}
+
+## Nutrient availability projection graph
+
+Below the information banner, the default view presents the nutrient availability projection graph, which includes all three SSPs (as described above).
+
+![QuickMAPS nutrient availability projection graph](images/QuickMAPS_projections_SSP_graph1.png){fig-alt="QuickMAPS nutrient availability projection graph"}

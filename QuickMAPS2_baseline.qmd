@@ -70,7 +70,7 @@ The options for this graph card are consistent with those described above, inclu
 
 ## Histogram
 
-The distribution of household apparent intake is shown in a histogram.
+The distribution of household apparent intake is shown in a histogram; this is only available where subnational data are loaded.
 
 ![Histogram of household nutrient apparent intake](images/QuickMAPS_histogram.png){fig-alt="Histogram of household nutrient apparent intake"}
 
