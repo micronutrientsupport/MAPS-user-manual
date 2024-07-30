@@ -18,12 +18,36 @@ Area B: A summary of the country, nutrient, food system data (as for Baseline), 
 
 Area C: The 2010 estimate is compared to the threshold used in the Baseline page, to explore the difference between these data and when the projections are expected to reach the threshold.
 
+### Shared socioeconomic pathways (SSP)
+
 The default model used is SSP2; further information can be retrieved about the Shared Socioeconomic Projections (SSP) by selecting the text "Learn more" on the right of area B. When selected an explanatory pop-up can be viewed, as shown below.
 
 ![QuickMAPS projections shared socioeconomic projections (SSP) explanatory text](images/QuickMAPS_projections_SSP_popup.png){fig-alt="QuickMAPS projections shared socioeconomic projections (SSP) explanatory text"}
 
 ## Nutrient availability projection graph
 
-Below the information banner, the default view presents the nutrient availability projection graph, which includes all three SSPs (as described above).
+Below the information banner, the default view presents the nutrient availability projection graph, which includes all three SSPs (as described above), and the nutrient threshold (identical to that in area C of the banner, above) as a horizontal red line. As with other graphical presentations, these graph lines have a facility to pop-up the underlying data when the cursor is placed above the data points.
 
 ![QuickMAPS nutrient availability projection graph](images/QuickMAPS_projections_SSP_graph1.png){fig-alt="QuickMAPS nutrient availability projection graph"}
+
+This graph interface is structured in way which is consistent with the Baseline page graphs, with a default graphical view and alternate options to view the plotted data ("Table"), to "Download" the graph or plotted data, and to find a brief description of the presented data ("About Projected Calcium availability to 2050").
+
+## Nutrient food source projections 
+
+Below the SSP nutrient projections graph shown above, a further interactive graph is available which shows the key food sources which these projections comprise.
+
+![Food source projections for the chosen nutrient](images/QuickMAPS_projections_SSP_foods1.png){fig-alt="Food source projections for the chosen nutrient"}
+
+This graphic is structured in the same way as the other Baseline and the nutrient projections graph - the default presentation is the graph but the plotted data is available, as are the downloads and further information shown for other cards. Additional functionality is found in this card, as highlighted in the index image below.
+
+![Food source projections index image](images/QuickMAPS_projections_SSP_foods1_BW.png){fig-alt="Food source projections index image"}
+
+Area A: The default view is of the foods described as commodities; this can be altered to 'food groups' using the dropdown option.
+
+Area B: the default view is SSP2, but the user can choose SSP1 or SSP3 (see above): these options can be selected for either the commodity or the food group display.
+
+Area C: The legend describes the food sources in the graph area.
+
+The legend (area C) can also be used to reduce the presented data to show the commodities (or food groups) of most interest to the user. When these are deselected, the name appears as a strikethrough font as shown in the image below, and the y axis of the graph recalculates to maximise the visible bars.
+
+![Food source projections with the food groups 'cereals' and 'other' removed from view.](images/QuickMAPS_projections_SSP_foods2.png){fig-alt="Food source projections with the food groups 'cereals' and 'other' removed from view."}
