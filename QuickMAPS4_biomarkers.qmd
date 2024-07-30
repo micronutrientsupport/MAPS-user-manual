@@ -12,7 +12,7 @@ When selecting the biomarker button, the options specific to this data type are 
 
 These additional options are highlighted in the index image below
 
-![QuickMAPS baseline biomarker sidebar index image](images/QuickMAPS_biomarker_sidebar3.png){fig-alt="QuickMAPS baseline biomarker sidebar index image" width="275"}
+![QuickMAPS baseline biomarker sidebar index image](images/QuickMAPS_biomarker_sidebar3.png){fig-alt="QuickMAPS baseline biomarker sidebar index image" fig-align="left" width="275"}
 
 Area A: This confirms the biomarker data option is selected as described above.
 
@@ -35,3 +35,7 @@ The default presentation of the data is a graphical presentation disaggregated b
 ![Example default view of biomarker disaggregated summaries](images/QuickMAPS_biomarker_graph1.png){fig-alt="Example default view of biomarker disaggregated summaries"}
 
 There are a number of visualisation options available in this window, with the data summary shown in "Aggregated Threshold Percentges". It is also possible to switch from the aggregation of "Wealth Quintile" to "Urbanity", or level 1 administrative region usinig the drop down menu option at the top of this screen.
+
+## Distribution of the biomarker data
+
+Further summary information is provided through a histogram and table of summary statistics of the overall dataset (country-nutrient-demographic group) of biomarker data in the lower window of this section of the MAPS tool.
