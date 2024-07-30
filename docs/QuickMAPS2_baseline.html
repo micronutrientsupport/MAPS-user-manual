@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MAPS tool user guide v1 - 5&nbsp; QuickMAPS 2: Baseline page</title>
+<title>MAPS tool user guide - 5&nbsp; QuickMAPS 2: Baseline page</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -94,9 +94,12 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./images/MAPS_sticker_purple.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">MAPS tool user guide v1</a> 
+      <a href="./">MAPS tool user guide</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -154,6 +157,9 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#baseline-data-information-section" id="toc-baseline-data-information-section" class="nav-link active" data-scroll-target="#baseline-data-information-section"><span class="header-section-number">5.1</span> Baseline data information section</a></li>
   <li><a href="#geographic-presentation" id="toc-geographic-presentation" class="nav-link" data-scroll-target="#geographic-presentation"><span class="header-section-number">5.2</span> Geographic presentation</a></li>
+  <li><a href="#foods-contributing-to-the-micronutrient-estimates" id="toc-foods-contributing-to-the-micronutrient-estimates" class="nav-link" data-scroll-target="#foods-contributing-to-the-micronutrient-estimates"><span class="header-section-number">5.3</span> Foods contributing to the micronutrient estimates</a></li>
+  <li><a href="#seasonality-information" id="toc-seasonality-information" class="nav-link" data-scroll-target="#seasonality-information"><span class="header-section-number">5.4</span> Seasonality information</a></li>
+  <li><a href="#histogram" id="toc-histogram" class="nav-link" data-scroll-target="#histogram"><span class="header-section-number">5.5</span> Histogram</a></li>
   </ul>
 </nav>
     </div>
@@ -200,14 +206,72 @@ ul.task-list li input[type="checkbox"] {
 <p>The title banner (area C) provides information on the country, micronutrient, and confirmation that food systems data is being used.</p>
 <p>The title banner then also provides more detail on the food composition data which the tool has matched to the information on food availability/apparent intake. The extent to which the foods have been matched to food composition data is provided (area D), and the proportion of foods matched to individual composition tables is provided. This also, importantly, summarises the proportion of foods which were not matched and thus were not included in the model outputs on the screen below. Further details on these are able to be seen by expanding the window (using the ‘view details’ arrow immediately to the right of the letter D).</p>
 <p>Additional information on the food composition data being used is shown in the drop-down area (E on the index image), with the number of items, and their contribution by weight, used from each source dataset. This also shows the number, and proportion by weight, of items not matched in the MAPS tool and therefore excluded from the model results shown in the screen below. These data are provided to support methodological transparency.</p>
-<p>Either two or four ‘cards’ are then presented on the page, depending on whether the tool has national scale food balance sheet data, or sub-national household consumption and expenditure survey data loaded.</p>
+<p>Either two or four ‘cards’ are then presented on the page, depending on whether the tool has national scale food balance sheet data (two cards), or sub-national household consumption and expenditure survey data (four cards) loaded. The options available on these cards are summarised below - those appearing on all cards are not repeated after their first occurrence.</p>
 </section>
 <section id="geographic-presentation" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="geographic-presentation"><span class="header-section-number">5.2</span> Geographic presentation</h2>
 <p>A map of the data is shown, on the top left when in default presentation mode. Where food balance sheet data is presented, then there is only one summary value for the whole country (reflecting the input data, see methods <img src="images/WiP_purplespanner.svg" class="img-fluid">). Where sub-national data is shown, the data is disaggregated to the first administrative level. An example of each of these is shown below.</p>
-<p>&lt;&lt;insert figure&gt;&gt;</p>
-<p>In both cases the polygons on the map (i.e.&nbsp;the shaded area(s) within the country of interest) can also be interacted with by hovering over them until a pop-up appears, containing numerical summaries.</p>
-<p>{{ <em>work-in-progress more content to come</em> }}</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/QuickMAPS_FBS_HCES_maps.png" class="img-fluid figure-img" alt="Mapped presentation of either national (left image) or sub-national (right) image data"></p>
+<figcaption>Mapped presentation of either national (left image) or sub-national (right) image data</figcaption>
+</figure>
+</div>
+<p>In both cases the polygons on the map (i.e.&nbsp;the shaded area(s) within the country of interest) can also be interacted with by hovering over them until a pop-up appears, containing numerical summaries. The information contained on this mapping interactive graphic shown in the index image below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/QuickMAPS_FBS_HCES_maps_BW.png" class="img-fluid figure-img" alt="Index image for the mapping interactive graphics in MAPS for national (left image) or sub-national (right image) data"></p>
+<figcaption>Index image for the mapping interactive graphics in MAPS for national (left image) or sub-national (right image) data</figcaption>
+</figure>
+</div>
+<p>Area A: The leftmost one (six dots) does not alter the data view; the central icon (cog) allows the user to alter the colour shown on the mapped area - this can be particularly useful where the default colours are not sufficiently distinct for a user; the rightmost icon (an “i”) provides some summary information about the estimates presented.</p>
+<p>Area B: The card can be expanded using this pop-out arrow option; this is available on all cards.</p>
+<p>Area C : Two mapped views are available for the sub-national data, with the default showing absolute values and the option showing the ‘variation from threshold’, whilst only the default absolute value is available for national data; additionally some summary information about the estimates presented, which is identical to the link using the “i” icon in area A.</p>
+<p>Area D: The window has options to move around geographically (using your device mouse/track-pad/touch-screen) and to zoom using the plus (+) or minus (-) symbols; the ‘house’ icon will restore the optimal zoom level for the chosen geography, and can be used to readily restore this view.</p>
+<p>Area E: this camera icon allows an image of the map to be saved, and provides an option in addition to users’ screen capture options.</p>
+<p>Area F: this is the legend for the colour used on the map, and will update depending on the colour ramp chosen if the default is altered (area A).</p>
+<p>Area G: whilst hovering over an area (national or subnational) a pop-up will appear which provides summary information for the area.</p>
+</section>
+<section id="foods-contributing-to-the-micronutrient-estimates" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="foods-contributing-to-the-micronutrient-estimates"><span class="header-section-number">5.3</span> Foods contributing to the micronutrient estimates</h2>
+<p>The top twenty food items (by weight) are presented for both national and subnational estimates. This takes the form of a “treemap”, where the foods are ordered from largest to smallest contribution, and the area is proportional to the quantity from these twenty items. An example of this is shown below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/QuickMAPS_treemap.png" class="img-fluid figure-img" alt="A treemap showing the top twenty food items"></p>
+<figcaption>A treemap showing the top twenty food items</figcaption>
+</figure>
+</div>
+<p>The index image below shows some of the key options on this card, which are not already described above for the mapped image card.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/QuickMAPS_treemap_BW.png" class="img-fluid figure-img" alt="Index image of the treemap card in QuickMAPS"></p>
+<figcaption>Index image of the treemap card in QuickMAPS</figcaption>
+</figure>
+</div>
+<p>Area A: The card defaults to showing food items at their most disaggregated level (Food Genus), alternatively the Food Group option can be selected to view the data aggregated too food group level. The data table for the top twenty foods can be viewed using the “Table (All Data)” option. Download of these, and an accompanying citation, can be accessed through the ‘Download’ option. There is a short summary of the information presented in ‘about these estimates’ (most right-hand option).</p>
+<p>’Area B: similar to the mapped image, the distinct areas within the image are interactive, and the data can be viewed through a pop-up visible when the cursor is moved over each area.</p>
+</section>
+<section id="seasonality-information" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="seasonality-information"><span class="header-section-number">5.4</span> Seasonality information</h2>
+<p>Subnational data arising from household consumption and expenditure surveys often includes data which provide monthly disaggregation. These are shown as proportional stacked bars.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/QuickMAPS_seasonality.png" class="img-fluid figure-img" alt="QuickMAPS seasonality information"></p>
+<figcaption>QuickMAPS seasonality information</figcaption>
+</figure>
+</div>
+<p>The options for this graph card are consistent with those described above, including the interactive option when the cursor is moved across areas of the graph. As an alternative to the default, a line chart can be viewed if preferred. The options to view the data and download either images or data are consistent with the treemap (above), as is the option to read a method brief summary in ‘about these estimates’.</p>
+</section>
+<section id="histogram" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="histogram"><span class="header-section-number">5.5</span> Histogram</h2>
+<p>The distribution of household apparent intake is shown in a histogram.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/QuickMAPS_histogram.png" class="img-fluid figure-img" alt="Histogram of household nutrient apparent intake"></p>
+<figcaption>Histogram of household nutrient apparent intake</figcaption>
+</figure>
+</div>
+<p>The histogram shows the distribution of the apparent intake of the chosen dataset; the Table (All Data) option shows the data to replicate this histogram, namely the count of households in each histogram bin. The options Download and About these estimates are as for the Seasonality card above.</p>
 
 
 </section>

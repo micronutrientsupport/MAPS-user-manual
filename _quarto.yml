@@ -1,8 +1,8 @@
 project:
-  type: book
+  type: book  # check if all parms work with this proj type
   output-dir: docs
 book:
-  title: "MAPS tool user guide v1"
+  title: "MAPS tool user guide"
   subtitle: "The Micronutrient Action Policy Support (MAPS) tool"
   author: "MAPS team"
   #date-format: "dd/MM/YYYY"
@@ -13,6 +13,9 @@ book:
   status: "under construction"
   version: "MAPS tool: 1.17.0"
   #original-date: "original guide release 3rd July 2024"
+  sidebar: 
+    logo: images/MAPS_sticker_purple.png  
+    search: true
   
   chapters:
     - index.qmd
