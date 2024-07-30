@@ -10,4 +10,22 @@ Once selected the user will see a MAPS information pop-up. This can be retrieved
 
 ## Initial selection menu
 
-The
+The initial Cost & Effectiveness window provides support to users in creating a new intervention, and if you have stored interventions these will appear here.
+
+![The initial window for Cost & Effectiveness modelling](images/CE_screen1.png){fig-alt="The initial window for Cost & Effectiveness modelling"}
+
+This window contains several features to support use of these tools. These are shown in the index image below.
+
+![Index image for the initial page of the Cost & Effectiveness models](images/CE_screen1_BW.png){fig-alt="Index image for the initial page of the Cost & Effectiveness models"}
+
+Area A: This provides an overview of the steps that the user will follow to create a complete model.
+
+Area B: This "?" icon provides a short overview of the modelling functionality.
+
+Area C: The shopping basket icon provides a summary of models in the user account.
+
+Area D: This button should be used to create a new intervention.
+
+## Creating an intervention
+
+{{this section is currently under development}}

@@ -1,5 +1,25 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MAPS tool user guide",
+    "section": "",
+    "text": "1 About this guide\nThis guide is intended to provide additional information on the data and visualisations in the Micronutrient Action Policy Support (MAPS) tool. This guide can be read in sequence, or users can use the navigation panels to directly select the section and functionality they are interested in.\nThis guide release precedes the completion of tool functionality, as part of our iterative release practice, and is being updated as features are released. Where text is yet to be released, or sections relate to features still under development, this is indicated by the following symbol: .\nComplementary guides are provided for educational users  and web developers .\nFurther information on the project and project team which created the MAPS tool can be found at the project website https://micronutrient.support/. A summary of our co-design process, implemented to design and test the MAPS tool, can be found at [].",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About this guide</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  Accessing, and returning to, the MAPS tool",
+    "section": "",
+    "text": "The MAPS tool can be accessed directly from https://maps.micronutrient.support/ or https://maps.micronutrient.support/maps-tool, and via our shortcut https://www.maps.africa/. All three links lead to exactly the same version of the tool.\nThe MAPS tool has been optimised for screen sizes typically found with desktop and laptop devices, rather than smaller mobile devices. Using smaller devices is possible, but will not provide the intended user experience of the interfaces. The tool will work in widely used commercial operating systems and web browsers (as at 2024).\nAccess is free of charge and does not require users to log-in. Users of the full scope of functionality, i.e. the cost & effectiveness modelling, and/or bring-your-own data [], may prefer to create a user account in order to save for a later date their own input data and models.\nThe current version of the tool is &lt;&gt;, and returning users may need to check a locally cached earlier version is not being used. If this is the case, follow your browser instructions to clear the cache and refresh your version of the MAPS tool.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Accessing, and returning to, the MAPS tool</span>"
+    ]
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
     "title": "3  Overview of the MAPS tool features",
@@ -47,36 +67,6 @@
     "text": "4.4 Changing the initial selection of country and / or micronutrient\nThe side bar can be re–opened using the icon  and the steps shown above used to view any different permutation of the countries and nutrients for which data is loaded.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>QuickMAPS i: Getting started</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "2  Accessing, and returning to, the MAPS tool",
-    "section": "",
-    "text": "The MAPS tool can be accessed directly from https://maps.micronutrient.support/ or https://maps.micronutrient.support/maps-tool, and via our shortcut https://www.maps.africa/. All three links lead to exactly the same version of the tool.\nThe MAPS tool has been optimised for screen sizes typically found with desktop and laptop devices, rather than smaller mobile devices. Using smaller devices is possible, but will not provide the intended user experience of the interfaces. The tool will work in widely used commercial operating systems and web browsers (as at 2024).\nAccess is free of charge and does not require users to log-in. Users of the full scope of functionality, i.e. the cost & effectiveness modelling, and/or bring-your-own data [], may prefer to create a user account in order to save for a later date their own input data and models.\nThe current version of the tool is &lt;&gt;, and returning users may need to check a locally cached earlier version is not being used. If this is the case, follow your browser instructions to clear the cache and refresh your version of the MAPS tool.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Accessing, and returning to, the MAPS tool</span>"
-    ]
-  },
-  {
-    "objectID": "glossary.html",
-    "href": "glossary.html",
-    "title": "8  Glossary for this guide",
-    "section": "",
-    "text": "A MAPS tool feature, or linked guide/documentation, which is not yet available. This symbol will be removed and text/links inserted as features and resources become available.\nMAPS Micronutrient Action Policy Support\nLSFF Large-scale food fortification",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Glossary for this guide</span>"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MAPS tool user guide",
-    "section": "",
-    "text": "1 About this guide\nThis guide is intended to provide additional information on the data and visualisations in the Micronutrient Action Policy Support (MAPS) tool. This guide can be read in sequence, or users can use the navigation panels to directly select the section and functionality they are interested in.\nThis guide release precedes the completion of tool functionality, as part of our iterative release practice, and is being updated as features are released. Where text is yet to be released, or sections relate to features still under development, this is indicated by the following symbol: .\nComplementary guides are provided for educational users  and web developers .\nFurther information on the project and project team which created the MAPS tool can be found at the project website https://micronutrient.support/. A summary of our co-design process, implemented to design and test the MAPS tool, can be found at [].",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About this guide</span>"
     ]
   },
   {
@@ -227,6 +217,16 @@
     "text": "7.4 Distribution of the biomarker data\nFurther summary information is provided through a histogram and table of summary statistics of the overall dataset (country-nutrient-demographic group) of biomarker data in the lower window of this section of the MAPS tool. An example of this is shown below.\n\n\n\nExample biomarker dataset histogram",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>QuickMAPS iv: Biomarker data</span>"
+    ]
+  },
+  {
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "9  Glossary for this guide",
+    "section": "",
+    "text": "A MAPS tool feature, or linked guide/documentation, which is not yet available. This symbol will be removed and text/links inserted as features and resources become available.\nMAPS Micronutrient Action Policy Support\nLSFF Large-scale food fortification",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Glossary for this guide</span>"
     ]
   }
 ]
