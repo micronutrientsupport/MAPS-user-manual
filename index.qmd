@@ -7,3 +7,5 @@ This guide release precedes the completion of tool functionality, as part of our
 Complementary guides are provided for educational users ![work-in-progress](images/WiP_purplespanner.svg) and web developers ![work-in-progress](images/WiP_purplespanner.svg).
 
 Further information on the project and project team which created the MAPS tool can be found at the project website <https://micronutrient.support/>. A summary of our co-design process, implemented to design and test the MAPS tool, can be found at \[![work-in-progress](images/WiP_purplespanner.svg)\].
+
+Tool version: {{< meta tool-version >}}, API version: {{< meta api-version >}}, Data Schema version: {{< meta data-schema >}}, Seed Data version: {{< meta data-seed >}} 

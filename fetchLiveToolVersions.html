@@ -1,0 +1,72 @@
+<script>
+    fetch('https://api.micronutrient.support/v2/self/version').then(function (response) {
+        // The API call was successful!
+        return response.json();
+    }).then(function (data) {
+        // This is the JSON from our response
+        Array.from(document.getElementsByClassName("replace")).forEach(
+          function(element, index, array) {
+              if(element.innerHTML === 'api-version') {
+                element.innerHTML = data.data[0].api
+              }
+              if(element.innerHTML === 'data-seed') {
+                element.innerHTML = data.data[0].seed
+              }
+              if(element.innerHTML === 'data-schema') {
+                element.innerHTML = data.data[0].schema
+              }
+              console.log(element.innerHTML)
+              // do stuff
+          }
+      );
+    }).catch(function (err) {
+        // There was an error
+        console.warn('Something went wrong.', err);
+        Array.from(document.getElementsByClassName("replace")).forEach(
+          function(element, index, array) {
+              if(element.innerHTML === 'api-version') {
+                element.innerHTML = 'Error loading API version'
+                element.classList.add('error')
+              }
+              if(element.innerHTML === 'data-seed') {
+                element.innerHTML = 'Error loading data seed version'
+                element.classList.add('error')
+              }
+              if(element.innerHTML === 'data-schema') {
+                element.innerHTML = 'Error loading data schema version'
+                element.classList.add('error')
+              }
+          }
+      );
+    });
+    fetch('https://maps.micronutrient.support/assets/version.json').then(function (response) {
+        // The API call was successful!
+        console.log(response)
+        return response.json();
+    }).then(function (data) {
+      console.log(data)
+        // This is the JSON from our response
+        Array.from(document.getElementsByClassName("replace")).forEach(
+          function(element, index, array) {
+              if(element.innerHTML === 'tool-version') {
+                element.innerHTML = data.version
+              }
+          }
+      );
+    }).catch(function (err) {
+        // There was an error
+        console.warn('Something went wrong.', err);
+                      Array.from(document.getElementsByClassName("replace")).forEach(
+          function(element, index, array) {
+              if(element.innerHTML === 'tool-version') {
+                element.innerHTML = 'Error loading tool version'
+                element.classList.add('error')
+              }
+          }
+      );
+    });
+    </script>
+    <style>
+    .replace { font-weight: bold; }
+    .error { color: #990000; }
+    </style>

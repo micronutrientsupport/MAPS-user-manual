@@ -29,11 +29,20 @@ book:
     - glossary.qmd
 #    - references.qmd
 
+# Placeholder templates for tool version replacement script
+tool-version: <span class="replace">tool-version</span>
+api-version: <span class="replace">api-version</span>
+data-seed: <span class="replace">data-seed</span>
+data-schema: <span class="replace">data-schema</span>
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
+
+    # Script to fetch live tool and api versions and replace into content
+    include-after-body:
+      - file: fetchLiveToolVersions.html 
   pdf:
     documentclass: scrreprt
 
