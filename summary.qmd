@@ -4,13 +4,13 @@ The MAPS project (Nov 2019 -- present) has co-created a web-hosted tool to estim
 
 ![Simplified user journey through the MAPS tool features](images/MAPS%20user%20journey.png){fig-alt="Simplified user journey through the MAPS tool features"}
 
-User entry points are provided at https://maps.micronutrient.support/maps-tool (and as shown below) which are **QuickMAPS** and **cost and effectiveness** modelling.
+User entry points are provided at <https://maps.micronutrient.support/maps-tool> (and as shown below) which are **QuickMAPS** and **cost and effectiveness** modelling.
 
 ![The options to enter via QuickMAPS (lower left of screenshot) or Cost & Effectiveness (lower right of screenshot) available on navigating to the tool.](images/Landing_QuickMAPS_C&E.png){fig-alt="The options to enter via QuickMAPS (lower left of screenshot) or Cost & Effectiveness (lower right of screenshot) available on navigating to the tool." fig-align="center" width="450"}
 
 **QuickMAPS** removes the need for complex data modelling skills that would be otherwise required to interact with national, or subnational, views of data which provide information on nutrient availability in nations. QuickMAPS also enables viualisation of information on the projections of nutrient availability at the national scale to the year 2050.
 
-**Cost & effectiveness** features provide modelling frameworks, visualisations and download for large-scale food fortification (LSFF), and for agricultural biofortification using either crop varieties or fertilisers ![](images/WiP_purplespanner.svg). Users can create multiple models, and compare outputs. Cost and effectiveness modelling can also be called from within QuickMAPS.
+**Cost & effectiveness** features provide modelling frameworks, visualisations and download options modelling interventions. This can be large-scale food fortification (LSFF), or biofortification ![](images/WiP_purplespanner.svg) using either crop varieties or fertilisers. Users can create multiple models, and compare outputs. Cost and effectiveness modelling can also be called from within QuickMAPS.
 
 Further information on each of these key features is provided in the sections below.
 
