@@ -222,11 +222,11 @@
   {
     "objectID": "CostEffectiveness.html",
     "href": "CostEffectiveness.html",
-    "title": "8  Cost & effectiveness modelling in MAPS",
+    "title": "8  Cost and effectiveness model features",
     "section": "",
-    "text": "8.1 Accessing cost and effectiveness modelling in MAPS\nCost and effectiveness modelling can be accessed directly through https://maps.micronutrient.support/maps-tool or the alias https://www.maps.africa/. No log in is required.\nOnce selected the user will see a MAPS information pop-up. This can be retrieved at any time as described in section 4.2.",
+    "text": "8.1 Initial selection menu\nThe initial Cost & Effectiveness window provides support to users in creating a new intervention, and if you have stored interventions these will appear here.\nThis window contains several features to support use of these tools. These are shown in the index image below.\nArea A: This provides an overview of the steps that the user will follow to create a complete model.\nArea B: This “?” icon provides a short overview of the modelling functionality.\nArea C: The shopping basket icon provides a summary of existing, saved, models in the user account.\nArea D: This button should be used to create a new intervention.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost & effectiveness modelling in MAPS</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost and effectiveness model features</span>"
     ]
   },
   {
@@ -242,21 +242,21 @@
   {
     "objectID": "CostEffectiveness.html#initial-selection-menu",
     "href": "CostEffectiveness.html#initial-selection-menu",
-    "title": "8  Cost & effectiveness modelling in MAPS",
-    "section": "8.2 Initial selection menu",
-    "text": "8.2 Initial selection menu\nThe initial Cost & Effectiveness window provides support to users in creating a new intervention, and if you have stored interventions these will appear here.\n\n\n\nThe initial window for Cost & Effectiveness modelling\n\n\nThis window contains several features to support use of these tools. These are shown in the index image below.\n\n\n\nIndex image for the initial page of the Cost & Effectiveness models\n\n\nArea A: This provides an overview of the steps that the user will follow to create a complete model.\nArea B: This “?” icon provides a short overview of the modelling functionality.\nArea C: The shopping basket icon provides a summary of models in the user account.\nArea D: This button should be used to create a new intervention.",
+    "title": "8  Cost and effectiveness model features",
+    "section": "",
+    "text": "The initial window for Cost & Effectiveness modelling\n\n\n\n\n\n\nIndex image for the initial page of the Cost & Effectiveness models",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost & effectiveness modelling in MAPS</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost and effectiveness model features</span>"
     ]
   },
   {
     "objectID": "CostEffectiveness.html#creating-an-intervention",
     "href": "CostEffectiveness.html#creating-an-intervention",
-    "title": "8  Cost & effectiveness modelling in MAPS",
-    "section": "8.3 Creating an intervention",
-    "text": "8.3 Creating an intervention\n{{this and subsequent sections are currently under construction}}",
+    "title": "8  Cost and effectiveness model features",
+    "section": "8.2 Creating an intervention",
+    "text": "8.2 Creating an intervention\nOnce the button to create a new intervention is selected (Area D above), a series of pop up screens will allow the user to define the model country, focus micronutrient, intervention type, food vehicle, base year, status, nature of the intervention, reference household member, and finally name and describe the model. The functionality on these pop-ups is consistently either a drop down option, or free text entry.\nThe figure below shows the first of these screens, with the first four of these parameter options, as an example.\n\n\n\nDefine intervention pop-up screen\n\n\nThe index version of this image shows where key user features can be found.\n\n\n\nDefine intervention pop-up index image\n\n\nArea A: This shows a “?” symbol - this provides some additional information for the user about each drop down box.\nArea B: This indicates the triangle symbol consistently used to indicate drop-down menu options from which the user can select.\nArea C: Above shows the default image when the page is open - this is replaced by further user help/support descriptions of the selected drop down options.\nArea D: These buttons enable a user to cancel or move forward (and ultimately save) their intervention. This location and style is consistently used through the cost and effectiveness model options for moving forward/backward, or saving.\nOnce this is complete, the tool will return the user to the landing page for interventions, from where the model can now be edited.\n\n\n\nThe initial window for Cost & Effectiveness modelling, with index of saved user models\n\n\nArea A: This area contains the index of models created, and saved, by the user. Here two models have been created.\nArea B: This shows the options to delete/edit/copy the model. Selecting ‘edit’ allows a newly created model to be parameterised with user data, or an existing model updated.\nThe MAPS tool does not restrict the permutations of nutrient and food vehicle (or any other parameter) that the user can select. It is the user’s responsibility to ensure that the models are feasible and correctly parmaterised.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost & effectiveness modelling in MAPS</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost and effectiveness model features</span>"
     ]
   },
   {
@@ -267,6 +267,66 @@
     "text": "A MAPS tool feature, or linked guide/documentation, which is not yet available. This symbol will be removed and text/links inserted as features and resources become available.\nMAPS Micronutrient Action Policy Support\nLSFF Large-scale food fortification",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Glossary for this guide</span>"
+    ]
+  },
+  {
+    "objectID": "CostEffectiveness.html#editing-an-existing-model",
+    "href": "CostEffectiveness.html#editing-an-existing-model",
+    "title": "8  Cost & effectiveness modelling in MAPS",
+    "section": "8.4 Editing an existing model",
+    "text": "8.4 Editing an existing model\nOnce the user has selected the model to edit, a new left-side navigation pane will appear, as shown below. This helps the user to understand where they are in the full twelve-step process of creating a Cost Effectiveness model.\nThe user does not need to create both Cost and Effectiveness fully parameterised models. Either of these can be used independently, with only the “intervention” (steps 1 and 2) information being essential to both. The current screen is shown as a large box/font - here it is step 3 “Industry information”.\n\n\n\nCost and effectiveness model navigation pane (left side of overall page)\n\n\nA further consistently applied feature, is that where data are modifiable, this is indicated by a change in the format of the box around the data, and the colour of the data font itself.\n\n\n\nIndex for the data status in the Cost & Effectiveness modelling.\n\n\n‘Model calculated values’ are derived from other input data, which may be editable, and these can be overwritten by the user.\n‘User-overidden values’ are where the model calculated values have been overwritten.\n‘User defined values’ are where the user has overwritten the default values provided in MAPS.\n‘Non editable values’ are where the user cannot modify figures (or calculated values).\nWhen a screen is viewed, some have further options available by clicking on the row name and the editable icon  which are both shown in purple.\nExamples of of these features are shown below in the image of a “Recurring costs” screen, on the “recurring premix costs summary” selection of the ‘premix’ icon .\n\n\n\nExample of model default, calculated and editable data features.\n\n\nArea A: non-editable data cells\nArea B: model calculated values\nArea C: editable (black font, left side) default values, and edited (blue font) user input values. Pop-up Area D shows the ‘copy values to the right’ feature, which means that the same value easily can be propagated to future years.\nArea E: shows the premix calculator available for LSFF cost modelling.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost & effectiveness modelling in MAPS</span>"
+    ]
+  },
+  {
+    "objectID": "CostEffectiveness.html#pre-mix-calculator",
+    "href": "CostEffectiveness.html#pre-mix-calculator",
+    "title": "8  Cost & effectiveness modelling in MAPS",
+    "section": "8.5 Pre-mix calculator",
+    "text": "8.5 Pre-mix calculator\nIt is expected that in LSFF modelling, a considerable proportion of the costs will be related to the pre-mix. We therefore provide a pre-mix calculator feature to enable detailed user costs to be included. The pre-mix calculator is is found by navigating to “Recurring costs” -&gt; “recurring premix costs summary” -&gt; “Premix” once the editable icon  is selected.\n\n\n\nThe pre-mix calculator.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost & effectiveness modelling in MAPS</span>"
+    ]
+  },
+  {
+    "objectID": "CostEffectiveness.html#cost-model-summary-page",
+    "href": "CostEffectiveness.html#cost-model-summary-page",
+    "title": "8  Cost & effectiveness modelling in MAPS",
+    "section": "8.6 Cost model summary page",
+    "text": "8.6 Cost model summary page\nThis section is still under construction.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost & effectiveness modelling in MAPS</span>"
+    ]
+  },
+  {
+    "objectID": "CostEffectiveness.html#cost-and-effectiveness-summary",
+    "href": "CostEffectiveness.html#cost-and-effectiveness-summary",
+    "title": "8  Cost and effectiveness model features",
+    "section": "8.4 Cost and effectiveness summary",
+    "text": "8.4 Cost and effectiveness summary\nThis section is still under construction .",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost and effectiveness model features</span>"
+    ]
+  },
+  {
+    "objectID": "CostEffectiveness.html#comparing-models",
+    "href": "CostEffectiveness.html#comparing-models",
+    "title": "8  Cost and effectiveness model features",
+    "section": "8.5 Comparing models",
+    "text": "8.5 Comparing models\nThis section is still under construction .",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost and effectiveness model features</span>"
+    ]
+  },
+  {
+    "objectID": "CostEffectiveness.html#model-editing",
+    "href": "CostEffectiveness.html#model-editing",
+    "title": "8  Cost and effectiveness model features",
+    "section": "8.3 Model editing",
+    "text": "8.3 Model editing\nOnce the user has selected the model to edit, a new left-side navigation pane will appear, as shown below. This helps the user to understand where they are in the full twelve-step process of creating a Cost Effectiveness model.\n\n\n\nCost and effectiveness model navigation pane (left side of overall page)\n\n\nA further consistently applied feature, is that where data are modifiable, this is indicated by a change in the format of the box around the data, and the colour of the data font itself.\n\n\n\nIndex for the data status in the Cost & Effectiveness modelling.\n\n\n‘Model calculated values’ are derived from other input data, which may be editable, and these can be overwritten by the user.\n‘User-overidden values’ are where the model calculated values have been overwritten.\n‘User defined values’ are where the user has overwritten the default values provided in MAPS.\n‘Non editable values’ are where the user cannot modify figures (or calculated values).\nWhen a screen is viewed, some have further options available by clicking on the row name and the editable icon  which are both shown in purple.\nExamples of of these features are shown below in the image of a “Recurring costs” screen, on the “recurring premix costs summary” selection of the ‘premix’ icon .\n\n\n\nExample of model default, calculated and editable data features.\n\n\nArea A: non-editable data cells\nArea B: model calculated values\nArea C: editable (black font, left side) default values, and edited (blue font) user input values. Pop-up Area D shows the ‘copy values to the right’ feature, which means that the same value easily can be propagated to future years.\nArea E: shows the premix calculator available for LSFF cost modelling.\n\n8.3.1 Pre-mix calculator\nIt is expected that in LSFF modelling, a considerable proportion of the costs will be related to the pre-mix. We therefore provide a pre-mix calculator feature to enable detailed user costs to be included. The pre-mix calculator is is found by navigating to “Recurring costs” -&gt; “recurring premix costs summary” -&gt; “Premix” once the editable icon  is selected.\n\n\n\nThe pre-mix calculator.\n\n\n\n\n8.3.2 Summary pages\nThis section is still under construction.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Cost and effectiveness model features</span>"
     ]
   }
 ]
