@@ -86,7 +86,7 @@ Area E: shows the premix calculator available for LSFF cost modelling.
 
 It is expected that in LSFF modelling, a considerable proportion of the costs will be related to the pre-mix. We therefore provide a pre-mix calculator feature to enable detailed user costs to be included. The pre-mix calculator is is found by navigating to "Recurring costs" -\> "recurring premix costs summary" -\> "Premix" once the editable icon ![](images/clipboard-853666347.png) is selected.
 
-![The pre-mix calculator.](images/CE_screen7_premix calc.png){fig-alt="The pre-mix calculator."}
+![The pre-mix calculator.](images/CE_screen7_premix%20calc.png){fig-alt="The pre-mix calculator."}
 
 ### Summary pages
 
