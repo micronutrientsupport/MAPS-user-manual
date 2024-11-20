@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MAPS tool user guide - 8&nbsp; Cost &amp; effectiveness modelling in MAPS</title>
+<title>MAPS tool user guide - 8&nbsp; Cost and effectiveness model features</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./CostEffectiveness.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Cost &amp; effectiveness modelling in MAPS</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./CostEffectiveness.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Cost and effectiveness model features</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -154,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./CostEffectiveness.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Cost &amp; effectiveness modelling in MAPS</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Cost and effectiveness model features</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -173,9 +173,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#accessing-cost-and-effectiveness-modelling-in-maps" id="toc-accessing-cost-and-effectiveness-modelling-in-maps" class="nav-link active" data-scroll-target="#accessing-cost-and-effectiveness-modelling-in-maps"><span class="header-section-number">8.1</span> Accessing cost and effectiveness modelling in MAPS</a></li>
-  <li><a href="#initial-selection-menu" id="toc-initial-selection-menu" class="nav-link" data-scroll-target="#initial-selection-menu"><span class="header-section-number">8.2</span> Initial selection menu</a></li>
-  <li><a href="#creating-an-intervention" id="toc-creating-an-intervention" class="nav-link" data-scroll-target="#creating-an-intervention"><span class="header-section-number">8.3</span> Creating an intervention</a></li>
+  <li><a href="#initial-selection-menu" id="toc-initial-selection-menu" class="nav-link active" data-scroll-target="#initial-selection-menu"><span class="header-section-number">8.1</span> Initial selection menu</a></li>
+  <li><a href="#creating-an-intervention" id="toc-creating-an-intervention" class="nav-link" data-scroll-target="#creating-an-intervention"><span class="header-section-number">8.2</span> Creating an intervention</a></li>
+  <li><a href="#model-editing" id="toc-model-editing" class="nav-link" data-scroll-target="#model-editing"><span class="header-section-number">8.3</span> Model editing</a>
+  <ul class="collapse">
+  <li><a href="#pre-mix-calculator" id="toc-pre-mix-calculator" class="nav-link" data-scroll-target="#pre-mix-calculator"><span class="header-section-number">8.3.1</span> Pre-mix calculator</a></li>
+  <li><a href="#summary-pages" id="toc-summary-pages" class="nav-link" data-scroll-target="#summary-pages"><span class="header-section-number">8.3.2</span> Summary pages</a></li>
+  </ul></li>
+  <li><a href="#cost-and-effectiveness-summary" id="toc-cost-and-effectiveness-summary" class="nav-link" data-scroll-target="#cost-and-effectiveness-summary"><span class="header-section-number">8.4</span> Cost and effectiveness summary</a></li>
+  <li><a href="#comparing-models" id="toc-comparing-models" class="nav-link" data-scroll-target="#comparing-models"><span class="header-section-number">8.5</span> Comparing models</a></li>
   </ul>
 </nav>
     </div>
@@ -184,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Cost &amp; effectiveness modelling in MAPS</span></h1>
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Cost and effectiveness model features</span></h1>
 </div>
 
 
@@ -201,19 +207,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="accessing-cost-and-effectiveness-modelling-in-maps" class="level2" data-number="8.1">
-<h2 data-number="8.1" class="anchored" data-anchor-id="accessing-cost-and-effectiveness-modelling-in-maps"><span class="header-section-number">8.1</span> Accessing cost and effectiveness modelling in MAPS</h2>
-<p>Cost and effectiveness modelling can be accessed directly through <a href="https://maps.micronutrient.support/maps-tool" class="uri">https://maps.micronutrient.support/maps-tool</a> or the alias <a href="https://www.maps.africa/" class="uri">https://www.maps.africa/</a>. No log in is required.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Landing_QuickMAPS_C&amp;E.png" class="img-fluid figure-img" alt="The options to enter via QuickMAPS (lower left of screenshot) or Cost &amp; Effectiveness (lower right of screenshot) available on navigating to the tool.The options to enter via QuickMAPS (lower left of screenshot) or Cost &amp; Effectiveness (lower right of screenshot) available on navigating to the tool." width="450"></p>
-<figcaption>The options to enter via QuickMAPS (lower left of screenshot) or Cost &amp; Effectiveness (lower right of screenshot) available on navigating to the tool.</figcaption>
-</figure>
-</div>
-<p>Once selected the user will see a MAPS information pop-up. This can be retrieved at any time as described in section <a href="https://help.micronutrient.support/QuickMAPS.html#initial-selection-menu">4.2</a>.</p>
-</section>
-<section id="initial-selection-menu" class="level2" data-number="8.2">
-<h2 data-number="8.2" class="anchored" data-anchor-id="initial-selection-menu"><span class="header-section-number">8.2</span> Initial selection menu</h2>
+<p>The user does not need to create both Cost <em>and</em> Effectiveness fully parameterised models. Either of these can be used independently, with only the “intervention” (steps 1 and 2) information being essential to both. The current screen is shown as a large box/font - here it is step 3 “Industry information”.</p>
+<section id="initial-selection-menu" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="initial-selection-menu"><span class="header-section-number">8.1</span> Initial selection menu</h2>
 <p>The initial Cost &amp; Effectiveness window provides support to users in creating a new intervention, and if you have stored interventions these will appear here.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -230,12 +226,95 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>Area A: This provides an overview of the steps that the user will follow to create a complete model.</p>
 <p>Area B: This “?” icon provides a short overview of the modelling functionality.</p>
-<p>Area C: The shopping basket icon provides a summary of models in the user account.</p>
+<p>Area C: The shopping basket icon provides a summary of existing, saved, models in the user account.</p>
 <p>Area D: This button should be used to create a new intervention.</p>
 </section>
-<section id="creating-an-intervention" class="level2" data-number="8.3">
-<h2 data-number="8.3" class="anchored" data-anchor-id="creating-an-intervention"><span class="header-section-number">8.3</span> Creating an intervention</h2>
-<p>{{<span class="smallcaps"><em>this and subsequent sections are currently under construction</em></span>}}</p>
+<section id="creating-an-intervention" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="creating-an-intervention"><span class="header-section-number">8.2</span> Creating an intervention</h2>
+<p>Once the button to create a new intervention is selected (Area D above), a series of pop up screens will allow the user to define the model country, focus micronutrient, intervention type, food vehicle, base year, status, nature of the intervention, reference household member, and finally name and describe the model. The functionality on these pop-ups is consistently either a drop down option, or free text entry.</p>
+<p>The figure below shows the first of these screens, with the first four of these parameter options, as an example.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/CE_screen2.png" class="img-fluid figure-img" alt="Define intervention pop-up screen"></p>
+<figcaption>Define intervention pop-up screen</figcaption>
+</figure>
+</div>
+<p>The index version of this image shows where key user features can be found.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/CE_screen2_BW.png" class="img-fluid figure-img" alt="Define intervention pop-up index image"></p>
+<figcaption>Define intervention pop-up index image</figcaption>
+</figure>
+</div>
+<p>Area A: This shows a “?” symbol - this provides some additional information for the user about each drop down box.</p>
+<p>Area B: This indicates the triangle symbol consistently used to indicate drop-down menu options from which the user can select.</p>
+<p>Area C: Above shows the default image when the page is open - this is replaced by further user help/support descriptions of the selected drop down options.</p>
+<p>Area D: These buttons enable a user to cancel or move forward (and ultimately save) their intervention. This location and style is consistently used through the cost and effectiveness model options for moving forward/backward, or saving.</p>
+<p>Once this is complete, the tool will return the user to the landing page for interventions, from where the model can now be edited.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/CE_screen3_BW.png" class="img-fluid figure-img" alt="The initial window for Cost &amp; Effectiveness modelling, with index of saved user models"></p>
+<figcaption>The initial window for Cost &amp; Effectiveness modelling, with index of saved user models</figcaption>
+</figure>
+</div>
+<p>Area A: This area contains the index of models created, and saved, by the user. Here two models have been created.</p>
+<p>Area B: This shows the options to delete/edit/copy the model. Selecting ‘edit’ allows a newly created model to be parameterised with user data, or an existing model updated.</p>
+<p><strong>The MAPS tool does not restrict the permutations of nutrient and food vehicle (or any other parameter) that the user can select. It is the user’s responsibility to ensure that the models are feasible and correctly parmaterised.</strong></p>
+</section>
+<section id="model-editing" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="model-editing"><span class="header-section-number">8.3</span> Model editing</h2>
+<p>Once the user has selected the model to edit, a new left-side navigation pane will appear, as shown below. This helps the user to understand where they are in the full twelve-step process of creating a Cost Effectiveness model.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/CE_screen4.png" class="img-fluid figure-img" alt="Cost and effectiveness model navigation pane (left side of overall page)"></p>
+<figcaption>Cost and effectiveness model navigation pane (left side of overall page)</figcaption>
+</figure>
+</div>
+<p>A further consistently applied feature, is that where data are modifiable, this is indicated by a change in the format of the box around the data, and the colour of the data font itself.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/CE_screen5.png" class="img-fluid figure-img" alt="Index for the data status in the Cost &amp; Effectiveness modelling."></p>
+<figcaption>Index for the data status in the Cost &amp; Effectiveness modelling.</figcaption>
+</figure>
+</div>
+<p>‘Model calculated values’ are derived from other input data, which may be editable, and these can be overwritten by the user.</p>
+<p>‘User-overidden values’ are where the model calculated values have been overwritten.</p>
+<p>‘User defined values’ are where the user has overwritten the default values provided in MAPS.</p>
+<p>‘Non editable values’ are where the user cannot modify figures (or calculated values).</p>
+<p>When a screen is viewed, some have further options available by clicking on the row name and the editable icon <img src="images/editable_icon.png" class="img-fluid"> which are both shown in purple.</p>
+<p>Examples of of these features are shown below in the image of a “Recurring costs” screen, on the “recurring premix costs summary” selection of the ‘premix’ icon <img src="images/clipboard-853666347.png" class="img-fluid">.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/CE_screen6.png" class="img-fluid figure-img" alt="Example of model default, calculated and editable data features."></p>
+<figcaption>Example of model default, calculated and editable data features.</figcaption>
+</figure>
+</div>
+<p>Area A: non-editable data cells</p>
+<p>Area B: model calculated values</p>
+<p>Area C: editable (black font, left side) default values, and edited (blue font) user input values. Pop-up Area D shows the ‘copy values to the right’ feature, which means that the same value easily can be propagated to future years.</p>
+<p>Area E: shows the premix calculator available for LSFF cost modelling.</p>
+<section id="pre-mix-calculator" class="level3" data-number="8.3.1">
+<h3 data-number="8.3.1" class="anchored" data-anchor-id="pre-mix-calculator"><span class="header-section-number">8.3.1</span> Pre-mix calculator</h3>
+<p>It is expected that in LSFF modelling, a considerable proportion of the costs will be related to the pre-mix. We therefore provide a pre-mix calculator feature to enable detailed user costs to be included. The pre-mix calculator is is found by navigating to “Recurring costs” -&gt; “recurring premix costs summary” -&gt; “Premix” once the editable icon <img src="images/clipboard-853666347.png" class="img-fluid"> is selected.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/CE_screen7_premix calc.png" class="img-fluid figure-img" alt="The pre-mix calculator."></p>
+<figcaption>The pre-mix calculator.</figcaption>
+</figure>
+</div>
+</section>
+<section id="summary-pages" class="level3" data-number="8.3.2">
+<h3 data-number="8.3.2" class="anchored" data-anchor-id="summary-pages"><span class="header-section-number">8.3.2</span> Summary pages</h3>
+<p>This section is still under construction.<img src="images/WiP_purplespanner.svg" class="img-fluid"></p>
+</section>
+</section>
+<section id="cost-and-effectiveness-summary" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="cost-and-effectiveness-summary"><span class="header-section-number">8.4</span> Cost and effectiveness summary</h2>
+<p>This section is still under construction .<img src="images/WiP_purplespanner.svg" class="img-fluid"></p>
+</section>
+<section id="comparing-models" class="level2" data-number="8.5">
+<h2 data-number="8.5" class="anchored" data-anchor-id="comparing-models"><span class="header-section-number">8.5</span> Comparing models</h2>
+<p>This section is still under construction .<img src="images/WiP_purplespanner.svg" class="img-fluid"></p>
 
 
 </section>
