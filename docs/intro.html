@@ -154,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./CostEffectiveness.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Cost &amp; effectiveness modelling in MAPS</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Cost and effectiveness model features</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -169,7 +169,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#maps-tool-component-versions" id="toc-maps-tool-component-versions" class="nav-link active" data-scroll-target="#maps-tool-component-versions"><span class="header-section-number">2.1</span> <strong>MAPS tool component versions</strong></a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -196,9 +202,25 @@ ul.task-list li input[type="checkbox"] {
 <p>The MAPS tool can be accessed directly from <a href="https://maps.micronutrient.support/" class="uri">https://maps.micronutrient.support/</a> or <a href="https://maps.micronutrient.support/maps-tool" class="uri">https://maps.micronutrient.support/maps-tool</a>, and via our shortcut <a href="https://www.maps.africa/" class="uri">https://www.maps.africa/</a>. All three links lead to exactly the same version of the tool.</p>
 <p>The MAPS tool has been optimised for screen sizes typically found with desktop and laptop devices, rather than smaller mobile devices. Using smaller devices is possible, but will not provide the intended user experience of the interfaces. The tool will work in widely used commercial operating systems and web browsers (as at 2024).</p>
 <p>Access is free of charge and does not require users to log-in. Users of the full scope of functionality, i.e.&nbsp;the cost &amp; effectiveness modelling, and/or bring-your-own data [<img src="images/WiP_purplespanner.svg" class="img-fluid" alt="work-in-progress">], may prefer to create a user account in order to save for a later date their own input data and models.</p>
-<p>The current version of the tool is &lt;<img src="images/WiP_purplespanner.svg" class="img-fluid">&gt;, and <strong>returning users</strong> may need to check a locally cached earlier version is not being used. If this is the case, follow your browser instructions to clear the cache and refresh your version of the MAPS tool.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The current version of the tool is <span class="replace">tool-version</span>, and <strong>returning users</strong> may need to check a locally cached earlier version is not being used. If this is the case, follow your browser instructions to clear the cache and refresh your version of the MAPS tool.</p>
+</div>
+</div>
+<section id="maps-tool-component-versions" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="maps-tool-component-versions"><span class="header-section-number">2.1</span> <strong>MAPS tool component versions</strong></h2>
+<p>Tool version: <span class="replace">tool-version</span>, API version: <span class="replace">api-version</span>, Data Schema version: <span class="replace">data-schema</span>, Seed Data version: <span class="replace">data-seed</span>.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -623,6 +645,149 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script>
+
+    fetch('https://api.micronutrient.support/v2/self/version').then(function (response) {
+
+        // The API call was successful!
+
+        return response.json();
+
+    }).then(function (data) {
+
+        // This is the JSON from our response
+
+        Array.from(document.getElementsByClassName("replace")).forEach(
+
+          function(element, index, array) {
+
+              if(element.innerHTML === 'api-version') {
+
+                element.innerHTML = data.data[0].api
+
+              }
+
+              if(element.innerHTML === 'data-seed') {
+
+                element.innerHTML = data.data[0].seed
+
+              }
+
+              if(element.innerHTML === 'data-schema') {
+
+                element.innerHTML = data.data[0].schema
+
+              }
+
+              console.log(element.innerHTML)
+
+              // do stuff
+
+          }
+
+      );
+
+    }).catch(function (err) {
+
+        // There was an error
+
+        console.warn('Something went wrong.', err);
+
+        Array.from(document.getElementsByClassName("replace")).forEach(
+
+          function(element, index, array) {
+
+              if(element.innerHTML === 'api-version') {
+
+                element.innerHTML = 'Error loading API version'
+
+                element.classList.add('error')
+
+              }
+
+              if(element.innerHTML === 'data-seed') {
+
+                element.innerHTML = 'Error loading data seed version'
+
+                element.classList.add('error')
+
+              }
+
+              if(element.innerHTML === 'data-schema') {
+
+                element.innerHTML = 'Error loading data schema version'
+
+                element.classList.add('error')
+
+              }
+
+          }
+
+      );
+
+    });
+
+    fetch('https://maps.micronutrient.support/assets/version.json').then(function (response) {
+
+        // The API call was successful!
+
+        console.log(response)
+
+        return response.json();
+
+    }).then(function (data) {
+
+      console.log(data)
+
+        // This is the JSON from our response
+
+        Array.from(document.getElementsByClassName("replace")).forEach(
+
+          function(element, index, array) {
+
+              if(element.innerHTML === 'tool-version') {
+
+                element.innerHTML = data.version
+
+              }
+
+          }
+
+      );
+
+    }).catch(function (err) {
+
+        // There was an error
+
+        console.warn('Something went wrong.', err);
+
+                      Array.from(document.getElementsByClassName("replace")).forEach(
+
+          function(element, index, array) {
+
+              if(element.innerHTML === 'tool-version') {
+
+                element.innerHTML = 'Error loading tool version'
+
+                element.classList.add('error')
+
+              }
+
+          }
+
+      );
+
+    });
+
+    </script>
+
+    <style>
+
+    .replace { font-weight: bold; }
+
+    .error { color: #990000; }
+
+    </style>
 
 
 

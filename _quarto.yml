@@ -1,5 +1,5 @@
 project:
-  type: book  # check if all parms work with this proj type
+  type: book  # check if all parms work with this proj type.
   output-dir: docs
 book:
   title: "MAPS tool user guide"
