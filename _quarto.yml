@@ -16,7 +16,7 @@ book:
   sidebar: 
     logo: images/MAPS_sticker_purple.png  
     search: true
-  favicon: images/MAPS_sticker_purple.png
+  favicon: /images/MAPS_sticker_purple.png
   
   chapters:
     - index.qmd
