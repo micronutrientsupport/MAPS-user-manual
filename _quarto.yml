@@ -1,5 +1,5 @@
 project:
-  type: book  # check if all parms work with this proj type.
+  type: book  # check if all parms work with this proj type
   output-dir: docs
 book:
   title: "MAPS tool user guide"
@@ -16,6 +16,7 @@ book:
   sidebar: 
     logo: images/MAPS_sticker_purple.png  
     search: true
+  favicon: /images/MAPS_sticker_purple.png
   
   chapters:
     - index.qmd
@@ -34,7 +35,7 @@ tool-version: <span class="replace">tool-version</span>
 api-version: <span class="replace">api-version</span>
 data-seed: <span class="replace">data-seed</span>
 data-schema: <span class="replace">data-schema</span>
-bibliography: references.bib
+#bibliography: references.bib
 
 format:
   html:
