@@ -32,6 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./QuickMAPS2_baseline.html" rel="next">
 <link href="./summary.html" rel="prev">
+<link href=".//images/MAPS_sticker_purple.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -154,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./CostEffectiveness.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Cost &amp; effectiveness modelling in MAPS</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Cost and effectiveness model features</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -209,13 +210,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="initial-selection-menu" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="initial-selection-menu"><span class="header-section-number">4.2</span> Initial selection menu</h2>
 <p>The following screen will appear on entering QuickMAPS. The ‘<em>Welcome to Quick MAPS</em>’ pop up window provides more information and a tour feature. Once completed or dismissed this can be restored at any time by using the icon <img src="images/MAPS_icons1.png" width="23" height="21" alt="Pop up MAPS welcome and tour"> on the lower right side of the screen.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/QuickMAPS_popup1.png" class="img-fluid figure-img"></p>
-<figcaption>QuickMAPS welcome and tour initial window</figcaption>
-</figure>
-</div>
-<p>The screen will then show the following view - which provides the user with the choice of country, micronutrient and, where applicable, food system or biomarker data.</p>
+<p><a href="QuickMAPS welcome and tour initial window"><img src="images/Landing_QuickMAPS_popup.png" class="img-fluid" alt="QuickMAPS welcome and tour initial window"></a>The screen will then show the following view - which provides the user with the choice of country, micronutrient and, where applicable, food system or biomarker data.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/QuickMAPS_popup2.png" class="img-fluid figure-img" alt="QuickMAPS country and micronutrient selection pane"></p>
@@ -669,6 +664,149 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script>
+
+    fetch('https://api.micronutrient.support/v2/self/version').then(function (response) {
+
+        // The API call was successful!
+
+        return response.json();
+
+    }).then(function (data) {
+
+        // This is the JSON from our response
+
+        Array.from(document.getElementsByClassName("replace")).forEach(
+
+          function(element, index, array) {
+
+              if(element.innerHTML === 'api-version') {
+
+                element.innerHTML = data.data[0].api
+
+              }
+
+              if(element.innerHTML === 'data-seed') {
+
+                element.innerHTML = data.data[0].seed
+
+              }
+
+              if(element.innerHTML === 'data-schema') {
+
+                element.innerHTML = data.data[0].schema
+
+              }
+
+              console.log(element.innerHTML)
+
+              // do stuff
+
+          }
+
+      );
+
+    }).catch(function (err) {
+
+        // There was an error
+
+        console.warn('Something went wrong.', err);
+
+        Array.from(document.getElementsByClassName("replace")).forEach(
+
+          function(element, index, array) {
+
+              if(element.innerHTML === 'api-version') {
+
+                element.innerHTML = 'Error loading API version'
+
+                element.classList.add('error')
+
+              }
+
+              if(element.innerHTML === 'data-seed') {
+
+                element.innerHTML = 'Error loading data seed version'
+
+                element.classList.add('error')
+
+              }
+
+              if(element.innerHTML === 'data-schema') {
+
+                element.innerHTML = 'Error loading data schema version'
+
+                element.classList.add('error')
+
+              }
+
+          }
+
+      );
+
+    });
+
+    fetch('https://maps.micronutrient.support/assets/version.json').then(function (response) {
+
+        // The API call was successful!
+
+        console.log(response)
+
+        return response.json();
+
+    }).then(function (data) {
+
+      console.log(data)
+
+        // This is the JSON from our response
+
+        Array.from(document.getElementsByClassName("replace")).forEach(
+
+          function(element, index, array) {
+
+              if(element.innerHTML === 'tool-version') {
+
+                element.innerHTML = data.version
+
+              }
+
+          }
+
+      );
+
+    }).catch(function (err) {
+
+        // There was an error
+
+        console.warn('Something went wrong.', err);
+
+                      Array.from(document.getElementsByClassName("replace")).forEach(
+
+          function(element, index, array) {
+
+              if(element.innerHTML === 'tool-version') {
+
+                element.innerHTML = 'Error loading tool version'
+
+                element.classList.add('error')
+
+              }
+
+          }
+
+      );
+
+    });
+
+    </script>
+
+    <style>
+
+    .replace { font-weight: bold; }
+
+    .error { color: #990000; }
+
+    </style>
 
 
 
