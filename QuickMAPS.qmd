@@ -8,9 +8,7 @@ QuickMAPS can be accessed directly through <https://maps.micronutrient.support/m
 
 The following screen will appear on entering QuickMAPS. The '*Welcome to Quick MAPS*' pop up window provides more information and a tour feature. Once completed or dismissed this can be restored at any time by using the icon ![Pop up MAPS welcome and tour](images/MAPS_icons1.png){width="23" height="21"} on the lower right side of the screen.
 
-![QuickMAPS welcome and tour initial window](images/QuickMAPS_popup1.png)
-
-The screen will then show the following view - which provides the user with the choice of country, micronutrient and, where applicable, food system or biomarker data.
+[![QuickMAPS welcome and tour initial window](images/Landing_QuickMAPS_popup.png)](QuickMAPS welcome and tour initial window)The screen will then show the following view - which provides the user with the choice of country, micronutrient and, where applicable, food system or biomarker data.
 
 ![QuickMAPS country and micronutrient selection pane](images/QuickMAPS_popup2.png){fig-alt="QuickMAPS country and micronutrient selection pane" fig-align="center"}
 
