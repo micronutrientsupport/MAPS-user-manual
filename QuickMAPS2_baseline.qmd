@@ -24,7 +24,7 @@ Either two or four 'cards' are then presented on the page, depending on whether 
 
 ## Geographic presentation
 
-A map of the data is shown, on the top left when in default presentation mode. Where food balance sheet data is presented, then there is only one summary value for the whole country (reflecting the input data, see methods ![](images/WiP_purplespanner.svg)). Where sub-national data is shown, the data is disaggregated to the first administrative level. An example of each of these is shown below.
+A map of the data is shown, on the top left when in default presentation mode. Where food balance sheet data is presented, then there is only one summary value for the whole country (reflecting the input data). Where sub-national data is shown, the data is disaggregated to the first administrative level. An example of each of these is shown below.
 
 ![Mapped presentation of either national (left image) or sub-national (right) image data](images/QuickMAPS_FBS_HCES_maps.png){fig-alt="Mapped presentation of either national (left image) or sub-national (right) image data"}
 
