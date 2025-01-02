@@ -32,7 +32,7 @@ Below the information banner, the default view presents the nutrient availabilit
 
 This graph interface is structured in way which is consistent with the Baseline page graphs, with a default graphical view and alternate options to view the plotted data ("Table"), to "Download" the graph or plotted data, and to find a brief description of the presented data ("About Projected Calcium availability to 2050").
 
-## Nutrient food source projections 
+## Nutrient food source projections
 
 Below the SSP nutrient projections graph shown above, a further interactive graph is available which shows the key food sources which these projections comprise.
 
